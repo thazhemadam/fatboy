@@ -1,3 +1,6 @@
 [submodule "marbastlib"]
 	path = pcb/libs/marbastlib
 	url = git@github.com:ebastler/marbastlib.git
+[submodule "kleeb"]
+	path = pcb/libs/kleeb
+	url = https://github.com/crides/kleeb.git
