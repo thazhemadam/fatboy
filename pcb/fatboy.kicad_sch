@@ -336,390 +336,7 @@
 				)
 			)
 		)
-		(symbol "PCM_marbastlib-various:SK6812MINI-E"
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "LED"
-				(at 2.54 6.35 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "SK6812MINI-E"
-				(at 7.62 -6.35 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" "PCM_marbastlib-various:LED_6028R"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Reverse mount adressable LED (WS2812 protocol)"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "reverse mount led revmount rgb"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "SK6812MINI-E_0_0"
-				(text "RGB"
-					(at 2.286 -4.191 0)
-					(effects
-						(font
-							(size 0.762 0.762)
-						)
-					)
-				)
-			)
-			(symbol "SK6812MINI-E_0_1"
-				(polyline
-					(pts
-						(xy 1.27 -3.556) (xy 1.778 -3.556)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 -2.54) (xy 1.778 -2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 4.699 -3.556) (xy 2.667 -3.556)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.286 -2.54) (xy 1.27 -3.556) (xy 1.27 -3.048)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.286 -1.524) (xy 1.27 -2.54) (xy 1.27 -2.032)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 3.683 -1.016) (xy 3.683 -3.556) (xy 3.683 -4.064)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 4.699 -1.524) (xy 2.667 -1.524) (xy 3.683 -3.556) (xy 4.699 -1.524)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start 5.08 5.08)
-					(end -5.08 -5.08)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-			)
-			(symbol "SK6812MINI-E_1_1"
-				(pin power_in line
-					(at 0 7.62 270)
-					(length 2.54)
-					(name "VDD"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin output line
-					(at 7.62 0 180)
-					(length 2.54)
-					(name "DOUT"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -7.62 0 0)
-					(length 2.54)
-					(name "DIN"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at 0 -7.62 90)
-					(length 2.54)
-					(name "VSS"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
-		(symbol "Switch:SW_Push"
-			(pin_numbers hide)
-			(pin_names
-				(offset 1.016) hide)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "SW"
-				(at 1.27 2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Value" "SW_Push"
-				(at 0 -1.524 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 5.08 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 5.08 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Push button switch, generic, two pins"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "switch normally-open pushbutton push-button"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "SW_Push_0_1"
-				(circle
-					(center -2.032 0)
-					(radius 0.508)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 1.27) (xy 0 3.048)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.54 1.27) (xy -2.54 1.27)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 2.032 0)
-					(radius 0.508)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin passive line
-					(at -5.08 0 0)
-					(length 2.54)
-					(name "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 5.08 0 180)
-					(length 2.54)
-					(name "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
-		(symbol "marbastlib-promicroish:Helios"
+		(symbol "PCM_marbastlib-promicroish:Helios"
 			(exclude_from_sim no)
 			(in_bom no)
 			(on_board yes)
@@ -1401,6 +1018,389 @@
 					)
 					(fill
 						(type background)
+					)
+				)
+			)
+		)
+		(symbol "PCM_marbastlib-various:SK6812MINI-E"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "LED"
+				(at 2.54 6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "SK6812MINI-E"
+				(at 7.62 -6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "PCM_marbastlib-various:LED_6028R"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Reverse mount adressable LED (WS2812 protocol)"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "reverse mount led revmount rgb"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "SK6812MINI-E_0_0"
+				(text "RGB"
+					(at 2.286 -4.191 0)
+					(effects
+						(font
+							(size 0.762 0.762)
+						)
+					)
+				)
+			)
+			(symbol "SK6812MINI-E_0_1"
+				(polyline
+					(pts
+						(xy 1.27 -3.556) (xy 1.778 -3.556)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 -2.54) (xy 1.778 -2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 4.699 -3.556) (xy 2.667 -3.556)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.286 -2.54) (xy 1.27 -3.556) (xy 1.27 -3.048)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.286 -1.524) (xy 1.27 -2.54) (xy 1.27 -2.032)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.683 -1.016) (xy 3.683 -3.556) (xy 3.683 -4.064)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 4.699 -1.524) (xy 2.667 -1.524) (xy 3.683 -3.556) (xy 4.699 -1.524)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start 5.08 5.08)
+					(end -5.08 -5.08)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+			)
+			(symbol "SK6812MINI-E_1_1"
+				(pin power_in line
+					(at 0 7.62 270)
+					(length 2.54)
+					(name "VDD"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 7.62 0 180)
+					(length 2.54)
+					(name "DOUT"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -7.62 0 0)
+					(length 2.54)
+					(name "DIN"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 0 -7.62 90)
+					(length 2.54)
+					(name "VSS"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "Switch:SW_Push"
+			(pin_numbers hide)
+			(pin_names
+				(offset 1.016) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "SW"
+				(at 1.27 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "SW_Push"
+				(at 0 -1.524 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Push button switch, generic, two pins"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "switch normally-open pushbutton push-button"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "SW_Push_0_1"
+				(circle
+					(center -2.032 0)
+					(radius 0.508)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 1.27) (xy 0 3.048)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 1.27) (xy -2.54 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 2.032 0)
+					(radius 0.508)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at -5.08 0 0)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 0 180)
+					(length 2.54)
+					(name "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
 					)
 				)
 			)
@@ -4547,6 +4547,172 @@
 		)
 	)
 	(symbol
+		(lib_id "PCM_marbastlib-promicroish:Helios")
+		(at 38.1 48.26 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "2b58dd87-9e90-4dc0-b925-77f5a76dfedd")
+		(property "Reference" "U1"
+			(at 41.5641 24.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Helios"
+			(at 41.5641 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "PCM_marbastlib-xp-promicroish:Helios_AH_USBup"
+			(at 38.1 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://github.com/0xCB-dev/0xCB-Helios"
+			(at 38.1 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Symbol for an 0xCB Helios"
+			(at 38.1 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "10"
+			(uuid "2aa57ef0-80fb-41e6-a201-14fcae0cf174")
+		)
+		(pin "17"
+			(uuid "cd4d1b05-f382-43f0-889c-ef6b79f2a547")
+		)
+		(pin "21"
+			(uuid "4d72ef80-2719-4f20-8f55-ee323feb3284")
+		)
+		(pin "22"
+			(uuid "bbb5b9a3-ddf7-4c1b-8938-c6976c5c6689")
+		)
+		(pin "2"
+			(uuid "c3005bc8-4ceb-431d-ba77-c5697423dc1e")
+		)
+		(pin "20"
+			(uuid "de275d2e-61b3-463a-8f64-fe85ed6c5fef")
+		)
+		(pin "18"
+			(uuid "6d3298d1-1ac6-475a-809e-73c67b96775b")
+		)
+		(pin "14"
+			(uuid "15705663-9d01-480e-999a-b11b86ed0fdd")
+		)
+		(pin "12"
+			(uuid "5c77a47a-43ec-4822-ab31-5643782cb02a")
+		)
+		(pin "5"
+			(uuid "ec30afd1-8fda-45b2-9ec1-8c38a757211f")
+		)
+		(pin "6"
+			(uuid "b29c2a82-01bd-4c57-8cda-6dff78ad6489")
+		)
+		(pin "26"
+			(uuid "5683415b-2f79-4b05-86c1-ae3df3ed9ddb")
+		)
+		(pin "27"
+			(uuid "4b37a753-3123-4509-b789-ce5cba1a148e")
+		)
+		(pin "28"
+			(uuid "ad854160-94a2-4322-ad02-50c7565b1347")
+		)
+		(pin "29"
+			(uuid "7cde30d0-7e69-46fc-a54f-8aaadb973d6a")
+		)
+		(pin "30"
+			(uuid "30d03b7c-dc3d-498c-ad2a-ceca3efe8445")
+		)
+		(pin "31"
+			(uuid "21fef11f-720d-455d-bb75-0bca9ddd1817")
+		)
+		(pin "32"
+			(uuid "ccb142dd-a84d-48d3-a61f-c144b7848fa9")
+		)
+		(pin "33"
+			(uuid "7e14e661-a8c8-4e1b-bcf0-ed1a6e9be1b3")
+		)
+		(pin "34"
+			(uuid "5222b34a-5a65-4843-a818-ed3a76d9ddd0")
+		)
+		(pin "11"
+			(uuid "d3d6b75a-baed-472f-b4b2-7672ec761f45")
+		)
+		(pin "19"
+			(uuid "d313dd0f-b83d-42cd-99f5-c72ca40fdde3")
+		)
+		(pin "23"
+			(uuid "013ca2bd-2e85-4dc5-b9fe-b6d44bce7bc0")
+		)
+		(pin "24"
+			(uuid "6242b82b-d6cc-4b9a-9de6-8baa25305cb4")
+		)
+		(pin "3"
+			(uuid "fc1badca-6b16-4b7e-a988-672722dc64e9")
+		)
+		(pin "4"
+			(uuid "4b89a1d9-0efe-46bf-b82b-6ba5ae7d4dfb")
+		)
+		(pin "1"
+			(uuid "a02c9788-e056-4c28-962f-87f4cfc68257")
+		)
+		(pin "9"
+			(uuid "764f0950-9ed9-4899-9750-3ee9ff5e9cf5")
+		)
+		(pin "13"
+			(uuid "abd6b5c2-a72a-48be-b430-df2211632199")
+		)
+		(pin "16"
+			(uuid "c13ce0f9-1c46-4dcd-84ec-354fe7a96c63")
+		)
+		(pin "25"
+			(uuid "5898f908-abb2-4d07-83e7-7bb097d3111a")
+		)
+		(pin "15"
+			(uuid "4017b288-48c1-4a92-9565-e8eda1e4e3c4")
+		)
+		(pin "7"
+			(uuid "ecd26771-d764-46cc-ae5f-dc17b23f307b")
+		)
+		(pin "8"
+			(uuid "3a52383f-987b-44d5-a637-3bf0d36f3db0")
+		)
+		(instances
+			(project "fatboy"
+				(path "/ebfc642c-0c68-4d3e-b71f-85668561aa10"
+					(reference "U1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Diode:1N4148W")
 		(at 31.75 129.54 90)
 		(unit 1)
@@ -4697,172 +4863,6 @@
 			(project "fatboy"
 				(path "/ebfc642c-0c68-4d3e-b71f-85668561aa10"
 					(reference "MX16")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "marbastlib-promicroish:Helios")
-		(at 38.1 48.26 0)
-		(unit 1)
-		(exclude_from_sim yes)
-		(in_bom no)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "2f84e07b-80f1-4295-a434-a8534de34bb5")
-		(property "Reference" "U1"
-			(at 41.5641 24.13 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "Helios"
-			(at 41.5641 26.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "PCM_marbastlib-xp-promicroish:Helios_ACH"
-			(at 38.1 72.39 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://github.com/0xCB-dev/0xCB-Helios"
-			(at 38.1 74.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 38.1 48.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "22"
-			(uuid "b7a0812f-597a-47d8-8d18-f59ef8ff1c36")
-		)
-		(pin "8"
-			(uuid "6ac9154c-51b7-451a-ba71-dcb5a3679633")
-		)
-		(pin "25"
-			(uuid "90d01d43-aefc-4e87-b622-418eeedd7642")
-		)
-		(pin "28"
-			(uuid "bf9f4f1d-bcc3-4318-9ad4-2c5952b38c8d")
-		)
-		(pin "4"
-			(uuid "9bb6c32e-4b12-43eb-a86b-f1b4c3f8527c")
-		)
-		(pin "27"
-			(uuid "fe4a8700-12f8-4a0b-94db-73258037202b")
-		)
-		(pin "17"
-			(uuid "15e59312-a772-400a-b2f5-b08fd52e7a09")
-		)
-		(pin "18"
-			(uuid "8366bd74-60c7-40fc-881f-2957ec13dcfb")
-		)
-		(pin "1"
-			(uuid "b2c04a5c-0ae3-4d12-b9ab-3dc698c9b2dc")
-		)
-		(pin "11"
-			(uuid "9a25e6eb-4c5c-43e8-bb70-1b2810dab758")
-		)
-		(pin "15"
-			(uuid "6c37fc75-187a-48a0-a3b5-faf1a385d22d")
-		)
-		(pin "34"
-			(uuid "78d2a079-ad3f-4050-8641-4867572cf223")
-		)
-		(pin "26"
-			(uuid "fc0ed9ed-b0e4-402c-ab85-4d22ef58c202")
-		)
-		(pin "23"
-			(uuid "a8941f08-911c-49b0-9a26-d4c16eadc535")
-		)
-		(pin "16"
-			(uuid "7e15ff53-d58e-4ad7-b824-f22bbcc9b792")
-		)
-		(pin "29"
-			(uuid "64ff3ff3-6b21-4bce-ac2c-d249b38b86b3")
-		)
-		(pin "19"
-			(uuid "8aeb03eb-4337-4faf-b4ab-b653309d098e")
-		)
-		(pin "33"
-			(uuid "aff8ade0-126e-404c-b366-ebdd653b38f1")
-		)
-		(pin "31"
-			(uuid "56c80240-a191-46c0-9a62-0234a042aef6")
-		)
-		(pin "24"
-			(uuid "3f9362cf-7dfa-4761-86fb-a60aabcbfc03")
-		)
-		(pin "20"
-			(uuid "b8f4728c-c2bf-4c97-acdb-33836863d0fb")
-		)
-		(pin "9"
-			(uuid "c2834ded-64f6-4bc6-bd96-82d560c5f234")
-		)
-		(pin "13"
-			(uuid "52c51e4d-8d73-48fc-8f48-5cded5a42d3e")
-		)
-		(pin "5"
-			(uuid "f3883070-8844-4bdd-b8c7-be630e8e2f8a")
-		)
-		(pin "21"
-			(uuid "fa99c553-9bb6-47d2-bdd4-cd689bd42e19")
-		)
-		(pin "32"
-			(uuid "833129fb-6866-49f5-930b-eb55f4186e90")
-		)
-		(pin "6"
-			(uuid "d39d1fd8-2695-4ddf-ada5-3e404ec1c071")
-		)
-		(pin "2"
-			(uuid "dbce1269-8255-415d-8449-40c26561f69b")
-		)
-		(pin "7"
-			(uuid "d4c4df5b-5be2-4183-b05f-5f179e676668")
-		)
-		(pin "3"
-			(uuid "580d1e79-fd5f-4e7d-967f-902095dc746f")
-		)
-		(pin "30"
-			(uuid "a17661d6-46c0-4f34-8cbe-b914043c846e")
-		)
-		(pin "10"
-			(uuid "a40aa28f-aded-477f-b5ee-42ffa1584126")
-		)
-		(pin "14"
-			(uuid "9b35ab81-37e1-4c6b-a7b8-84df2b61edb0")
-		)
-		(pin "12"
-			(uuid "fd598d55-955f-4306-b837-3dcb92abf957")
-		)
-		(instances
-			(project "fatboy"
-				(path "/ebfc642c-0c68-4d3e-b71f-85668561aa10"
-					(reference "U1")
 					(unit 1)
 				)
 			)
