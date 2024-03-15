@@ -52,11 +52,7 @@
         }
       },
       "diff_pair_dimensions": [],
-      "drc_exclusions": [
-        "silk_edge_clearance|307145063|111486860|c82ba9dc-daae-4304-87f5-de0f76f7b43d|3708f5d4-dcf5-4668-b18b-46fcb4232d9e",
-        "silk_edge_clearance|309462624|130394153|c82ba9dc-daae-4304-87f5-de0f76f7b43d|6fab1ff2-ec69-4286-8d1c-1e0967f839dd",
-        "silk_edge_clearance|311780184|149301444|c82ba9dc-daae-4304-87f5-de0f76f7b43d|d5e41077-2dc6-4525-90c0-78f143bbfd51"
-      ],
+      "drc_exclusions": [],
       "meta": {
         "version": 2
       },
@@ -547,7 +543,7 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "fatboy-helios.kicad_pro",
+    "filename": "fatboy-rp2040-zero.kicad_pro",
     "version": 1
   },
   "net_settings": {
