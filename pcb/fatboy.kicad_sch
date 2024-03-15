@@ -336,6 +336,244 @@
 				)
 			)
 		)
+		(symbol "PCM_marbastlib-various:SK6812MINI-E"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "LED"
+				(at 2.54 6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "SK6812MINI-E"
+				(at 7.62 -6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "PCM_marbastlib-various:LED_6028R"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Reverse mount adressable LED (WS2812 protocol)"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "reverse mount led revmount rgb"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "SK6812MINI-E_0_0"
+				(text "RGB"
+					(at 2.286 -4.191 0)
+					(effects
+						(font
+							(size 0.762 0.762)
+						)
+					)
+				)
+			)
+			(symbol "SK6812MINI-E_0_1"
+				(polyline
+					(pts
+						(xy 1.27 -3.556) (xy 1.778 -3.556)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 -2.54) (xy 1.778 -2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 4.699 -3.556) (xy 2.667 -3.556)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.286 -2.54) (xy 1.27 -3.556) (xy 1.27 -3.048)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.286 -1.524) (xy 1.27 -2.54) (xy 1.27 -2.032)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.683 -1.016) (xy 3.683 -3.556) (xy 3.683 -4.064)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 4.699 -1.524) (xy 2.667 -1.524) (xy 3.683 -3.556) (xy 4.699 -1.524)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start 5.08 5.08)
+					(end -5.08 -5.08)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+			)
+			(symbol "SK6812MINI-E_1_1"
+				(pin power_in line
+					(at 0 7.62 270)
+					(length 2.54)
+					(name "VDD"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 7.62 0 180)
+					(length 2.54)
+					(name "DOUT"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -7.62 0 0)
+					(length 2.54)
+					(name "DIN"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 0 -7.62 90)
+					(length 2.54)
+					(name "VSS"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "Switch:SW_Push"
 			(pin_numbers hide)
 			(pin_names
@@ -1167,244 +1405,6 @@
 				)
 			)
 		)
-		(symbol "marbastlib-various:SK6812MINI-E"
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "LED"
-				(at 2.54 6.35 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "SK6812MINI-E"
-				(at 7.62 -6.35 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" "PCM_marbastlib-various:LED_6028R"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Reverse mount adressable LED (WS2812 protocol)"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "reverse mount led revmount rgb"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "SK6812MINI-E_0_0"
-				(text "RGB"
-					(at 2.286 -4.191 0)
-					(effects
-						(font
-							(size 0.762 0.762)
-						)
-					)
-				)
-			)
-			(symbol "SK6812MINI-E_0_1"
-				(polyline
-					(pts
-						(xy 1.27 -3.556) (xy 1.778 -3.556)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 -2.54) (xy 1.778 -2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 4.699 -3.556) (xy 2.667 -3.556)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.286 -2.54) (xy 1.27 -3.556) (xy 1.27 -3.048)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.286 -1.524) (xy 1.27 -2.54) (xy 1.27 -2.032)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 3.683 -1.016) (xy 3.683 -3.556) (xy 3.683 -4.064)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 4.699 -1.524) (xy 2.667 -1.524) (xy 3.683 -3.556) (xy 4.699 -1.524)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start 5.08 5.08)
-					(end -5.08 -5.08)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-			)
-			(symbol "SK6812MINI-E_1_1"
-				(pin power_in line
-					(at 0 7.62 270)
-					(length 2.54)
-					(name "VDD"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin output line
-					(at 7.62 0 180)
-					(length 2.54)
-					(name "DOUT"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -7.62 0 0)
-					(length 2.54)
-					(name "DIN"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at 0 -7.62 90)
-					(length 2.54)
-					(name "VSS"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
 		(symbol "power:GND"
 			(power)
 			(pin_numbers hide)
@@ -1531,6 +1531,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "1a01f450-7905-4f86-a599-db6376e72d0b")
+	)
+	(junction
+		(at 160.02 36.83)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "1cfef210-eb9e-4faf-90a3-d9dd952a1b85")
 	)
 	(junction
 		(at 107.95 171.45)
@@ -1677,12 +1683,6 @@
 		(uuid "6cd908ba-e6b0-4c38-87c4-069dadf27e44")
 	)
 	(junction
-		(at 121.92 21.59)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "712249a9-1504-4142-9afa-5651179a6e3f")
-	)
-	(junction
 		(at 57.15 133.35)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1729,6 +1729,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "9d9f32ae-5129-44e8-89f9-f78af14c90d0")
+	)
+	(junction
+		(at 121.92 21.59)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "9dba35bb-c6ae-4e2b-8c74-eeb8d3ea644f")
 	)
 	(junction
 		(at 120.65 190.5)
@@ -1827,12 +1833,6 @@
 		(uuid "e4f90d31-7cc4-4f19-ab12-53fde70577f4")
 	)
 	(junction
-		(at 160.02 36.83)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "ec12052c-693e-4c3c-8594-8c4a03f51f4e")
-	)
-	(junction
 		(at 146.05 152.4)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1895,10 +1895,6 @@
 		(uuid "89569b24-1d90-4339-8bb8-8452fa766ea3")
 	)
 	(no_connect
-		(at 167.64 29.21)
-		(uuid "a8f0c8e5-71ff-46d1-ac0d-ce2945059655")
-	)
-	(no_connect
 		(at 50.8 31.75)
 		(uuid "adc8e7f9-af51-4736-84ef-b64471c165d3")
 	)
@@ -1909,6 +1905,10 @@
 	(no_connect
 		(at 25.4 36.83)
 		(uuid "d8599a56-1b03-45b9-b448-94d2e9a08f78")
+	)
+	(no_connect
+		(at 167.64 29.21)
+		(uuid "e05f51da-1138-472a-bb6e-3de7202c707b")
 	)
 	(no_connect
 		(at 40.64 69.85)
@@ -1967,16 +1967,6 @@
 			(type default)
 		)
 		(uuid "08d084c0-b511-4fbb-a77b-a983c20911e5")
-	)
-	(wire
-		(pts
-			(xy 121.92 21.59) (xy 160.02 21.59)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0e11b6b6-77c2-4b2a-9ac5-8cbd9d85d5c3")
 	)
 	(wire
 		(pts
@@ -2087,16 +2077,6 @@
 			(type default)
 		)
 		(uuid "2b80f2a3-375b-4129-8e21-6ffd3965f0b2")
-	)
-	(wire
-		(pts
-			(xy 121.92 36.83) (xy 160.02 36.83)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2cc9568d-8350-4c64-9d7e-44afe101b3db")
 	)
 	(wire
 		(pts
@@ -2237,6 +2217,16 @@
 			(type default)
 		)
 		(uuid "623449ac-6e80-4370-be15-d22fa04ef019")
+	)
+	(wire
+		(pts
+			(xy 121.92 36.83) (xy 160.02 36.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6570c6dc-d7f0-486d-b517-2b62d614ae53")
 	)
 	(wire
 		(pts
@@ -2490,6 +2480,16 @@
 	)
 	(wire
 		(pts
+			(xy 129.54 29.21) (xy 152.4 29.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bd592208-56c1-49eb-a828-17a8cd87ddab")
+	)
+	(wire
+		(pts
 			(xy 120.65 171.45) (xy 133.35 171.45)
 		)
 		(stroke
@@ -2600,16 +2600,6 @@
 	)
 	(wire
 		(pts
-			(xy 129.54 29.21) (xy 152.4 29.21)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ea3864d6-a0e9-4dcc-aa0b-4db7152f6944")
-	)
-	(wire
-		(pts
 			(xy 153.67 114.3) (xy 153.67 120.65)
 		)
 		(stroke
@@ -2637,6 +2627,16 @@
 			(type default)
 		)
 		(uuid "ef986d4d-6414-4a8b-b3f6-035343b05e53")
+	)
+	(wire
+		(pts
+			(xy 121.92 21.59) (xy 160.02 21.59)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f778ce03-f353-4f28-a63b-6bf7c9003a28")
 	)
 	(wire
 		(pts
@@ -6088,6 +6088,80 @@
 		)
 	)
 	(symbol
+		(lib_id "PCM_marbastlib-various:SK6812MINI-E")
+		(at 160.02 29.21 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "683b1149-faa4-4ee6-99b6-1cfca4c0803c")
+		(property "Reference" "LED2"
+			(at 173.99 25.562 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SK6812MINI-E"
+			(at 173.99 28.102 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "PCM_marbastlib-various:LED_6028R"
+			(at 160.02 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 160.02 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Reverse mount adressable LED (WS2812 protocol)"
+			(at 160.02 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "4"
+			(uuid "5d1811e5-ba7a-438d-b2ed-7cf7228c29a0")
+		)
+		(pin "1"
+			(uuid "6e826869-5f47-4fb1-8682-1d2e130f8927")
+		)
+		(pin "2"
+			(uuid "3fe77783-6f13-4d5c-85cc-629f2c9b38c4")
+		)
+		(pin "3"
+			(uuid "fff6eaa7-5bb1-405a-bd51-48b23c667426")
+		)
+		(instances
+			(project "fatboy"
+				(path "/ebfc642c-0c68-4d3e-b71f-85668561aa10"
+					(reference "LED2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Diode:1N4148W")
 		(at 69.85 186.69 90)
 		(unit 1)
@@ -7619,79 +7693,6 @@
 		)
 	)
 	(symbol
-		(lib_id "marbastlib-various:SK6812MINI-E")
-		(at 160.02 29.21 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "a99221e8-97e2-4163-899b-6e4199cc2ac0")
-		(property "Reference" "LED2"
-			(at 175.26 24.384 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "SK6812MINI-E"
-			(at 175.26 26.924 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "fatboy:LED_6028R"
-			(at 160.02 29.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 160.02 29.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 160.02 29.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "1523b74f-a554-4702-a134-203cbd90483a")
-		)
-		(pin "4"
-			(uuid "10ffd72c-91d9-4688-8263-ccb1886fc424")
-		)
-		(pin "1"
-			(uuid "41e8428f-8c61-48f5-85c4-d2bb010d675b")
-		)
-		(pin "3"
-			(uuid "e6abb558-bcd5-4cfb-a3ca-c16e50aa18aa")
-		)
-		(instances
-			(project "fatboy"
-				(path "/ebfc642c-0c68-4d3e-b71f-85668561aa10"
-					(reference "LED2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "PCM_marbastlib-mx:MX_SW_HS_CPG151101S11")
 		(at 54.61 142.24 0)
 		(unit 1)
@@ -8531,79 +8532,6 @@
 			(project "fatboy"
 				(path "/ebfc642c-0c68-4d3e-b71f-85668561aa10"
 					(reference "D7")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "marbastlib-various:SK6812MINI-E")
-		(at 121.92 29.21 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "d535d4a3-c8bc-4d7b-a4ca-ab83c0a0508d")
-		(property "Reference" "LED1"
-			(at 137.16 24.384 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "SK6812MINI-E"
-			(at 137.16 26.924 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "fatboy:LED_6028R"
-			(at 121.92 29.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 121.92 29.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 121.92 29.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "21cfe0ca-b4d2-49fe-a36e-27d5d879d9f9")
-		)
-		(pin "4"
-			(uuid "11f03a9a-0a7f-4932-9ffe-9df67fef5ce2")
-		)
-		(pin "1"
-			(uuid "135d5281-fc1f-4ce7-a441-a589ea5bf23a")
-		)
-		(pin "3"
-			(uuid "75f2fd9e-2f23-4f1c-8d86-e283c5ee2d10")
-		)
-		(instances
-			(project "fatboy"
-				(path "/ebfc642c-0c68-4d3e-b71f-85668561aa10"
-					(reference "LED1")
 					(unit 1)
 				)
 			)
@@ -9479,6 +9407,80 @@
 			(project "fatboy"
 				(path "/ebfc642c-0c68-4d3e-b71f-85668561aa10"
 					(reference "MX10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PCM_marbastlib-various:SK6812MINI-E")
+		(at 121.92 29.21 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f4c9977a-f507-440c-99f3-c46a6d6d4ff3")
+		(property "Reference" "LED1"
+			(at 135.89 25.562 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SK6812MINI-E"
+			(at 135.89 28.102 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "PCM_marbastlib-various:LED_6028R"
+			(at 121.92 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 121.92 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Reverse mount adressable LED (WS2812 protocol)"
+			(at 121.92 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "4"
+			(uuid "0560316b-4881-4fa0-bff8-c1f39f645424")
+		)
+		(pin "1"
+			(uuid "89fd09ff-562d-4672-81d0-ed11817e0c86")
+		)
+		(pin "2"
+			(uuid "5c0eecee-fe78-4d07-9a19-c8dde6b31710")
+		)
+		(pin "3"
+			(uuid "1702d3cc-646c-4634-a988-15bc93b675cd")
+		)
+		(instances
+			(project "fatboy"
+				(path "/ebfc642c-0c68-4d3e-b71f-85668561aa10"
+					(reference "LED1")
 					(unit 1)
 				)
 			)
