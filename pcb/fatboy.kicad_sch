@@ -3543,7 +3543,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "fatboy:D_SOD-123"
+		(property "Footprint" "Diode_SMD:D_SOD-123"
 			(at 112.395 129.54 0)
 			(effects
 				(font
@@ -3561,7 +3561,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "75V 0.15A Fast Switching Diode, SOD-123"
 			(at 107.95 129.54 0)
 			(effects
 				(font
@@ -3631,7 +3631,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "fatboy:D_SOD-123"
+		(property "Footprint" "Diode_SMD:D_SOD-123"
 			(at 48.895 129.54 0)
 			(effects
 				(font
@@ -3649,7 +3649,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "75V 0.15A Fast Switching Diode, SOD-123"
 			(at 44.45 129.54 0)
 			(effects
 				(font
@@ -3787,7 +3787,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "fatboy:D_SOD-123"
+		(property "Footprint" "Diode_SMD:D_SOD-123"
 			(at 86.995 148.59 0)
 			(effects
 				(font
@@ -3805,7 +3805,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "75V 0.15A Fast Switching Diode, SOD-123"
 			(at 82.55 148.59 0)
 			(effects
 				(font
@@ -3943,7 +3943,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "fatboy:D_SOD-123"
+		(property "Footprint" "Diode_SMD:D_SOD-123"
 			(at 36.195 148.59 0)
 			(effects
 				(font
@@ -3961,7 +3961,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "75V 0.15A Fast Switching Diode, SOD-123"
 			(at 31.75 148.59 0)
 			(effects
 				(font
@@ -4506,7 +4506,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "fatboy:D_SOD-123"
+		(property "Footprint" "Diode_SMD:D_SOD-123"
 			(at 36.195 129.54 0)
 			(effects
 				(font
@@ -4524,7 +4524,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "75V 0.15A Fast Switching Diode, SOD-123"
 			(at 31.75 129.54 0)
 			(effects
 				(font
@@ -4760,7 +4760,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "fatboy:D_SOD-123"
+		(property "Footprint" "Diode_SMD:D_SOD-123"
 			(at 48.895 148.59 0)
 			(effects
 				(font
@@ -4778,7 +4778,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "75V 0.15A Fast Switching Diode, SOD-123"
 			(at 44.45 148.59 0)
 			(effects
 				(font
@@ -4848,7 +4848,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "fatboy:D_SOD-123"
+		(property "Footprint" "Diode_SMD:D_SOD-123"
 			(at 137.795 129.54 0)
 			(effects
 				(font
@@ -4866,7 +4866,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "75V 0.15A Fast Switching Diode, SOD-123"
 			(at 133.35 129.54 0)
 			(effects
 				(font
@@ -4936,7 +4936,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "fatboy:D_SOD-123"
+		(property "Footprint" "Diode_SMD:D_SOD-123"
 			(at 61.595 148.59 0)
 			(effects
 				(font
@@ -4954,7 +4954,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "75V 0.15A Fast Switching Diode, SOD-123"
 			(at 57.15 148.59 0)
 			(effects
 				(font
@@ -5364,7 +5364,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "fatboy:D_SOD-123"
+		(property "Footprint" "Diode_SMD:D_SOD-123"
 			(at 74.295 129.54 0)
 			(effects
 				(font
@@ -5382,7 +5382,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "75V 0.15A Fast Switching Diode, SOD-123"
 			(at 69.85 129.54 0)
 			(effects
 				(font
@@ -5519,7 +5519,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "fatboy:D_SOD-123"
+		(property "Footprint" "Diode_SMD:D_SOD-123"
 			(at 112.395 148.59 0)
 			(effects
 				(font
@@ -5537,7 +5537,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "75V 0.15A Fast Switching Diode, SOD-123"
 			(at 107.95 148.59 0)
 			(effects
 				(font
@@ -5675,7 +5675,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "fatboy:D_SOD-123"
+		(property "Footprint" "Diode_SMD:D_SOD-123"
 			(at 86.995 167.64 0)
 			(effects
 				(font
@@ -5693,7 +5693,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "75V 0.15A Fast Switching Diode, SOD-123"
 			(at 82.55 167.64 0)
 			(effects
 				(font
@@ -5967,7 +5967,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "fatboy:D_SOD-123"
+		(property "Footprint" "Diode_SMD:D_SOD-123"
 			(at 86.995 186.69 0)
 			(effects
 				(font
@@ -5985,7 +5985,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "75V 0.15A Fast Switching Diode, SOD-123"
 			(at 82.55 186.69 0)
 			(effects
 				(font
@@ -6055,7 +6055,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "fatboy:D_SOD-123"
+		(property "Footprint" "Diode_SMD:D_SOD-123"
 			(at 163.195 129.54 0)
 			(effects
 				(font
@@ -6073,7 +6073,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "75V 0.15A Fast Switching Diode, SOD-123"
 			(at 158.75 129.54 0)
 			(effects
 				(font
@@ -6347,7 +6347,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "fatboy:D_SOD-123"
+		(property "Footprint" "Diode_SMD:D_SOD-123"
 			(at 74.295 148.59 0)
 			(effects
 				(font
@@ -6365,7 +6365,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "75V 0.15A Fast Switching Diode, SOD-123"
 			(at 69.85 148.59 0)
 			(effects
 				(font
@@ -6435,7 +6435,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "fatboy:D_SOD-123"
+		(property "Footprint" "Diode_SMD:D_SOD-123"
 			(at 61.595 129.54 0)
 			(effects
 				(font
@@ -6453,7 +6453,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "75V 0.15A Fast Switching Diode, SOD-123"
 			(at 57.15 129.54 0)
 			(effects
 				(font
@@ -6523,7 +6523,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "fatboy:D_SOD-123"
+		(property "Footprint" "Diode_SMD:D_SOD-123"
 			(at 74.295 186.69 0)
 			(effects
 				(font
@@ -6541,7 +6541,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "75V 0.15A Fast Switching Diode, SOD-123"
 			(at 69.85 186.69 0)
 			(effects
 				(font
@@ -6679,7 +6679,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "fatboy:D_SOD-123"
+		(property "Footprint" "Diode_SMD:D_SOD-123"
 			(at 112.395 186.69 0)
 			(effects
 				(font
@@ -6697,7 +6697,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "75V 0.15A Fast Switching Diode, SOD-123"
 			(at 107.95 186.69 0)
 			(effects
 				(font
@@ -6767,7 +6767,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "fatboy:D_SOD-123"
+		(property "Footprint" "Diode_SMD:D_SOD-123"
 			(at 61.595 186.69 0)
 			(effects
 				(font
@@ -6785,7 +6785,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "75V 0.15A Fast Switching Diode, SOD-123"
 			(at 57.15 186.69 0)
 			(effects
 				(font
@@ -6991,7 +6991,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "fatboy:D_SOD-123"
+		(property "Footprint" "Diode_SMD:D_SOD-123"
 			(at 163.195 148.59 0)
 			(effects
 				(font
@@ -7009,7 +7009,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "75V 0.15A Fast Switching Diode, SOD-123"
 			(at 158.75 148.59 0)
 			(effects
 				(font
@@ -7079,7 +7079,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "fatboy:D_SOD-123"
+		(property "Footprint" "Diode_SMD:D_SOD-123"
 			(at 74.295 167.64 0)
 			(effects
 				(font
@@ -7097,7 +7097,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "75V 0.15A Fast Switching Diode, SOD-123"
 			(at 69.85 167.64 0)
 			(effects
 				(font
@@ -7167,7 +7167,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "fatboy:D_SOD-123"
+		(property "Footprint" "Diode_SMD:D_SOD-123"
 			(at 137.795 167.64 0)
 			(effects
 				(font
@@ -7185,7 +7185,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "75V 0.15A Fast Switching Diode, SOD-123"
 			(at 133.35 167.64 0)
 			(effects
 				(font
@@ -7458,7 +7458,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "fatboy:D_SOD-123"
+		(property "Footprint" "Diode_SMD:D_SOD-123"
 			(at 150.495 129.54 0)
 			(effects
 				(font
@@ -7476,7 +7476,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "75V 0.15A Fast Switching Diode, SOD-123"
 			(at 146.05 129.54 0)
 			(effects
 				(font
@@ -7614,7 +7614,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "fatboy:D_SOD-123"
+		(property "Footprint" "Diode_SMD:D_SOD-123"
 			(at 150.495 148.59 0)
 			(effects
 				(font
@@ -7632,7 +7632,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "75V 0.15A Fast Switching Diode, SOD-123"
 			(at 146.05 148.59 0)
 			(effects
 				(font
@@ -7702,7 +7702,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "fatboy:D_SOD-123"
+		(property "Footprint" "Diode_SMD:D_SOD-123"
 			(at 48.895 167.64 0)
 			(effects
 				(font
@@ -7720,7 +7720,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "75V 0.15A Fast Switching Diode, SOD-123"
 			(at 44.45 167.64 0)
 			(effects
 				(font
@@ -7790,7 +7790,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "fatboy:D_SOD-123"
+		(property "Footprint" "Diode_SMD:D_SOD-123"
 			(at 137.795 186.69 0)
 			(effects
 				(font
@@ -7808,7 +7808,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "75V 0.15A Fast Switching Diode, SOD-123"
 			(at 133.35 186.69 0)
 			(effects
 				(font
@@ -7878,7 +7878,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "fatboy:D_SOD-123"
+		(property "Footprint" "Diode_SMD:D_SOD-123"
 			(at 125.095 148.59 0)
 			(effects
 				(font
@@ -7896,7 +7896,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "75V 0.15A Fast Switching Diode, SOD-123"
 			(at 120.65 148.59 0)
 			(effects
 				(font
@@ -7966,7 +7966,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "fatboy:D_SOD-123"
+		(property "Footprint" "Diode_SMD:D_SOD-123"
 			(at 125.095 186.69 0)
 			(effects
 				(font
@@ -7984,7 +7984,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "75V 0.15A Fast Switching Diode, SOD-123"
 			(at 120.65 186.69 0)
 			(effects
 				(font
@@ -8331,7 +8331,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "fatboy:D_SOD-123"
+		(property "Footprint" "Diode_SMD:D_SOD-123"
 			(at 86.995 129.54 0)
 			(effects
 				(font
@@ -8349,7 +8349,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "75V 0.15A Fast Switching Diode, SOD-123"
 			(at 82.55 129.54 0)
 			(effects
 				(font
@@ -8552,7 +8552,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "fatboy:D_SOD-123"
+		(property "Footprint" "Diode_SMD:D_SOD-123"
 			(at 150.495 167.64 0)
 			(effects
 				(font
@@ -8570,7 +8570,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "75V 0.15A Fast Switching Diode, SOD-123"
 			(at 146.05 167.64 0)
 			(effects
 				(font
@@ -8640,7 +8640,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "fatboy:D_SOD-123"
+		(property "Footprint" "Diode_SMD:D_SOD-123"
 			(at 163.195 167.64 0)
 			(effects
 				(font
@@ -8658,7 +8658,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "75V 0.15A Fast Switching Diode, SOD-123"
 			(at 158.75 167.64 0)
 			(effects
 				(font
@@ -8728,7 +8728,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "fatboy:D_SOD-123"
+		(property "Footprint" "Diode_SMD:D_SOD-123"
 			(at 61.595 167.64 0)
 			(effects
 				(font
@@ -8746,7 +8746,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "75V 0.15A Fast Switching Diode, SOD-123"
 			(at 57.15 167.64 0)
 			(effects
 				(font
@@ -8900,7 +8900,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Push button switch, generic, two pins"
 			(at 86.36 26.67 0)
 			(effects
 				(font
@@ -8952,7 +8952,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "fatboy:D_SOD-123"
+		(property "Footprint" "Diode_SMD:D_SOD-123"
 			(at 125.095 129.54 0)
 			(effects
 				(font
@@ -8970,7 +8970,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "75V 0.15A Fast Switching Diode, SOD-123"
 			(at 120.65 129.54 0)
 			(effects
 				(font
@@ -9113,7 +9113,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "fatboy:D_SOD-123"
+		(property "Footprint" "Diode_SMD:D_SOD-123"
 			(at 36.195 167.64 0)
 			(effects
 				(font
@@ -9131,7 +9131,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "75V 0.15A Fast Switching Diode, SOD-123"
 			(at 31.75 167.64 0)
 			(effects
 				(font
@@ -9201,7 +9201,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "fatboy:D_SOD-123"
+		(property "Footprint" "Diode_SMD:D_SOD-123"
 			(at 137.795 148.59 0)
 			(effects
 				(font
@@ -9219,7 +9219,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "75V 0.15A Fast Switching Diode, SOD-123"
 			(at 133.35 148.59 0)
 			(effects
 				(font
@@ -9357,7 +9357,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "fatboy:D_SOD-123"
+		(property "Footprint" "Diode_SMD:D_SOD-123"
 			(at 112.395 167.64 0)
 			(effects
 				(font
@@ -9375,7 +9375,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "75V 0.15A Fast Switching Diode, SOD-123"
 			(at 107.95 167.64 0)
 			(effects
 				(font
@@ -9784,7 +9784,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "fatboy:D_SOD-123"
+		(property "Footprint" "Diode_SMD:D_SOD-123"
 			(at 125.095 167.64 0)
 			(effects
 				(font
@@ -9802,7 +9802,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "75V 0.15A Fast Switching Diode, SOD-123"
 			(at 120.65 167.64 0)
 			(effects
 				(font
