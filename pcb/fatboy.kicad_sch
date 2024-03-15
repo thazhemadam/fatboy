@@ -167,6 +167,175 @@
 				)
 			)
 		)
+		(symbol "PCM_marbastlib-mx:MX_SW_HS_CPG151101S11"
+			(pin_numbers hide)
+			(pin_names
+				(offset 1.016) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "MX"
+				(at 3.048 1.016 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "MX_SW_HS"
+				(at 0 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "PCM_marbastlib-mx:SW_MX_HS_CPG151101S11_1u"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Push button switch, normally open, two pins, 45° tilted, Kailh CPG151101S11 for Cherry MX style switches"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "switch normally-open pushbutton push-button"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "MX_SW_HS_CPG151101S11_0_1"
+				(circle
+					(center -1.1684 1.1684)
+					(radius 0.508)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.508 2.54) (xy 2.54 -0.508)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.016 1.016) (xy 2.032 2.032)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.54 2.54) (xy -1.524 1.524) (xy -1.524 1.524)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.524 -1.524) (xy 2.54 -2.54) (xy 2.54 -2.54) (xy 2.54 -2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 1.143 -1.1938)
+					(radius 0.508)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at -2.54 2.54 0)
+					(length 0)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 -2.54 180)
+					(length 0)
+					(name "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "Switch:SW_Push"
 			(pin_numbers hide)
 			(pin_names
@@ -295,175 +464,6 @@
 				(pin passive line
 					(at 5.08 0 180)
 					(length 2.54)
-					(name "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
-		(symbol "marbastlib-mx:MX_SW_HS"
-			(pin_numbers hide)
-			(pin_names
-				(offset 1.016) hide)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "MX"
-				(at 3.048 1.016 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Value" "MX_SW_HS"
-				(at 0 -3.81 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" "PCM_marbastlib-mx:SW_MX_HS_1u"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Push button switch, normally open, two pins, 45° tilted"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "switch normally-open pushbutton push-button"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "MX_SW_HS_0_1"
-				(circle
-					(center -1.1684 1.1684)
-					(radius 0.508)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -0.508 2.54) (xy 2.54 -0.508)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.016 1.016) (xy 2.032 2.032)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -2.54 2.54) (xy -1.524 1.524) (xy -1.524 1.524)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.524 -1.524) (xy 2.54 -2.54) (xy 2.54 -2.54) (xy 2.54 -2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 1.143 -1.1938)
-					(radius 0.508)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin passive line
-					(at -2.54 2.54 0)
-					(length 0)
-					(name "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 2.54 -2.54 180)
-					(length 0)
 					(name "2"
 						(effects
 							(font
@@ -1506,19 +1506,25 @@
 		(at 64.77 158.75)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "0bcabd2f-985a-4792-a622-b00479d3f1f2")
+		(uuid "00c10a18-6776-4355-a890-814e9898351f")
 	)
 	(junction
-		(at 77.47 139.7)
+		(at 77.47 158.75)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "0c149918-af97-4a56-bb60-03e348690eda")
+		(uuid "05181dfc-1c06-443d-aac8-7912e07848fd")
 	)
 	(junction
-		(at 115.57 120.65)
+		(at 26.67 120.65)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "0f8c265a-ec0a-4f7b-ba10-ea0df3e8a481")
+		(uuid "0de998a9-da44-406a-a01f-0ce3eb1bb4d8")
+	)
+	(junction
+		(at 39.37 120.65)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "15667b72-22cf-4506-a55f-2c0870393f0c")
 	)
 	(junction
 		(at 57.15 190.5)
@@ -1551,6 +1557,12 @@
 		(uuid "253f6f3c-5657-4f56-a7d2-0be7279725c6")
 	)
 	(junction
+		(at 140.97 139.7)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "2980fab6-6b7a-4b4e-9e8b-3f3f4818647c")
+	)
+	(junction
 		(at 146.05 133.35)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1563,10 +1575,10 @@
 		(uuid "2e569675-2b2d-4ace-99f9-8ca8c2127be2")
 	)
 	(junction
-		(at 140.97 139.7)
+		(at 52.07 120.65)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "2ff78b0f-d885-4966-a752-6fca77122791")
+		(uuid "307c5eab-8e32-4eac-8f2e-ae363d47825d")
 	)
 	(junction
 		(at 146.05 171.45)
@@ -1581,10 +1593,22 @@
 		(uuid "351a6e69-054b-485d-95c4-1543a490d02a")
 	)
 	(junction
-		(at 153.67 120.65)
+		(at 52.07 158.75)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "38be5dd8-8f4d-41ba-b013-34548977f6e2")
+		(uuid "36a855e7-01c5-4249-900a-4936486f605b")
+	)
+	(junction
+		(at 39.37 139.7)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "383080b9-aa55-41fd-997e-b65df49279c7")
+	)
+	(junction
+		(at 77.47 120.65)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "3ed0c026-3616-4ec3-bec2-fe3a70def37f")
 	)
 	(junction
 		(at 82.55 171.45)
@@ -1593,10 +1617,10 @@
 		(uuid "4a35a6b2-a161-4e0b-aa7c-b470b64ebc81")
 	)
 	(junction
-		(at 102.87 120.65)
+		(at 153.67 120.65)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "4ccc1a49-873c-48bc-a317-28190665f6c5")
+		(uuid "5669f366-c13f-4cf3-b956-d957e40a3d7e")
 	)
 	(junction
 		(at 107.95 133.35)
@@ -1605,10 +1629,28 @@
 		(uuid "5847889c-4a62-435f-81d4-42ca7fd0cb2b")
 	)
 	(junction
+		(at 115.57 120.65)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "584acce8-4c88-469c-9f48-0cc144687fa8")
+	)
+	(junction
 		(at 31.75 133.35)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "59d4c94b-76c7-4f93-9abf-43811c0624bf")
+	)
+	(junction
+		(at 153.67 139.7)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "5c4fbbb1-158c-41d7-957f-e49501926703")
+	)
+	(junction
+		(at 140.97 120.65)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "5ce077ad-abe8-4b87-90d5-e248827ed981")
 	)
 	(junction
 		(at 120.65 152.4)
@@ -1623,10 +1665,16 @@
 		(uuid "6620b42d-6d3e-4541-80ba-cc47ca13a26a")
 	)
 	(junction
-		(at 102.87 139.7)
+		(at 128.27 139.7)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "6a38b8f3-aa5c-4637-a45f-2e2b57ada715")
+		(uuid "669a3245-e640-4726-b6e1-9b83471985d1")
+	)
+	(junction
+		(at 115.57 139.7)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "6cd908ba-e6b0-4c38-87c4-069dadf27e44")
 	)
 	(junction
 		(at 121.92 21.59)
@@ -1641,10 +1689,22 @@
 		(uuid "73a7789b-13da-43f1-b71e-920882b643e5")
 	)
 	(junction
-		(at 102.87 158.75)
+		(at 102.87 139.7)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "7aabc6e0-4d73-4aff-8d8a-dd189b5ccddc")
+		(uuid "73cbf8ad-7ec4-4388-b54b-e0ac6d0e1a97")
+	)
+	(junction
+		(at 115.57 158.75)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "781228bd-e20d-4317-8440-b90a3e081792")
+	)
+	(junction
+		(at 77.47 139.7)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "7b95dcf0-03a2-4eae-a7e4-33d8370904ee")
 	)
 	(junction
 		(at 107.95 152.4)
@@ -1653,40 +1713,10 @@
 		(uuid "7c556aac-d876-41fa-8ea5-39290ba0bd2f")
 	)
 	(junction
-		(at 64.77 120.65)
+		(at 102.87 158.75)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "817a3017-b321-40d1-a7cc-c16c05cce41d")
-	)
-	(junction
-		(at 52.07 139.7)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "8257ed76-162d-4fc5-b60b-1ce495cabb03")
-	)
-	(junction
-		(at 140.97 120.65)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "887e30da-3f59-46b1-a04f-c70e51010acb")
-	)
-	(junction
-		(at 153.67 139.7)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "8ecfe6a5-e553-4817-8340-b083f7e87eeb")
-	)
-	(junction
-		(at 77.47 120.65)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "98e0718c-bbab-41c9-9798-aa1cf87e7e1d")
-	)
-	(junction
-		(at 52.07 120.65)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "9b50006f-c11a-4604-9f35-c6e75c649e96")
+		(uuid "9ac7929d-6bd3-415b-a921-630810fa1c0b")
 	)
 	(junction
 		(at 107.95 190.5)
@@ -1695,22 +1725,10 @@
 		(uuid "9be5661e-d850-4986-b2fe-0e5a6f479a26")
 	)
 	(junction
-		(at 115.57 158.75)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "9d8c2c37-67e2-4b5f-bd73-49fbf514577c")
-	)
-	(junction
 		(at 31.75 152.4)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "9d9f32ae-5129-44e8-89f9-f78af14c90d0")
-	)
-	(junction
-		(at 39.37 139.7)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "9e1f22c6-ca3c-438b-b16b-57e204a5c88d")
 	)
 	(junction
 		(at 120.65 190.5)
@@ -1719,10 +1737,10 @@
 		(uuid "a3fa02d9-be02-4250-ab31-c6fc7aa02dbf")
 	)
 	(junction
-		(at 64.77 139.7)
+		(at 102.87 120.65)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "a5215b42-fcab-4ae3-b5e2-7628ae09763a")
+		(uuid "a47d1495-c84f-4c49-b845-d090d9dbc06b")
 	)
 	(junction
 		(at 133.35 133.35)
@@ -1731,46 +1749,40 @@
 		(uuid "a8ab061e-20d9-413e-aec8-c13498a3ee8a")
 	)
 	(junction
-		(at 52.07 158.75)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "acd59107-001c-487c-a6fd-e138c1792d88")
-	)
-	(junction
 		(at 120.65 171.45)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "b08bf5f8-d812-4def-b981-891ee2e62bc2")
 	)
 	(junction
-		(at 39.37 120.65)
+		(at 52.07 139.7)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "b45468ca-57c3-4134-8a90-83f0c7174f28")
+		(uuid "c5b47340-be67-486e-8503-458a2131d5a4")
 	)
 	(junction
 		(at 26.67 139.7)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "bb4943e8-6d24-4513-ba5e-c12a144d5528")
+		(uuid "c78966da-0a19-411b-bb0d-dea7197c053f")
 	)
 	(junction
-		(at 26.67 120.65)
+		(at 64.77 120.65)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "c06e464e-bbb4-491e-880c-ee2dc4ec3446")
-	)
-	(junction
-		(at 128.27 139.7)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "cf916f1f-f82a-411e-bfb3-3c6cbba30967")
+		(uuid "cf0e176c-3d87-4079-8624-7028e17d2359")
 	)
 	(junction
 		(at 82.55 133.35)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "d1eccd50-096d-4cd8-a980-a7e0bc053798")
+	)
+	(junction
+		(at 128.27 120.65)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d2443e9e-eda0-45bb-998e-1b3e07a820de")
 	)
 	(junction
 		(at 69.85 133.35)
@@ -1785,6 +1797,12 @@
 		(uuid "d8057445-3abf-4a64-ba84-f4253b107852")
 	)
 	(junction
+		(at 128.27 158.75)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "dd4ad9d9-3b5d-41fd-ab74-bccd7424437e")
+	)
+	(junction
 		(at 69.85 152.4)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1797,22 +1815,16 @@
 		(uuid "e03fe723-f417-4f9a-add7-361e4f8da07e")
 	)
 	(junction
+		(at 64.77 139.7)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e045e32f-de85-4fc8-ac8a-76b735b424a0")
+	)
+	(junction
 		(at 133.35 152.4)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "e4f90d31-7cc4-4f19-ab12-53fde70577f4")
-	)
-	(junction
-		(at 77.47 158.75)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "e843dc8f-1d76-4a1d-860f-2da62306e2ea")
-	)
-	(junction
-		(at 128.27 120.65)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "eb4868d9-d166-40a3-9933-cb0b99f25839")
 	)
 	(junction
 		(at 160.02 36.83)
@@ -1821,22 +1833,10 @@
 		(uuid "ec12052c-693e-4c3c-8594-8c4a03f51f4e")
 	)
 	(junction
-		(at 115.57 139.7)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "edecc46e-c7b0-4af9-92c7-65cc68d701cf")
-	)
-	(junction
 		(at 146.05 152.4)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "f0a46812-4176-4d3e-9c06-b5092d7f4b7f")
-	)
-	(junction
-		(at 128.27 158.75)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "f3326396-d64d-4c87-954e-2bb0688d7dee")
 	)
 	(junction
 		(at 69.85 190.5)
@@ -1920,6 +1920,16 @@
 	)
 	(wire
 		(pts
+			(xy 153.67 120.65) (xy 153.67 139.7)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "01f7e154-545f-4f03-81a8-f4d6ba9a3320")
+	)
+	(wire
+		(pts
 			(xy 82.55 133.35) (xy 107.95 133.35)
 		)
 		(stroke
@@ -1930,7 +1940,7 @@
 	)
 	(wire
 		(pts
-			(xy 52.07 158.75) (xy 52.07 177.8)
+			(xy 52.07 114.3) (xy 52.07 120.65)
 		)
 		(stroke
 			(width 0)
@@ -1947,6 +1957,16 @@
 			(type default)
 		)
 		(uuid "07dfe4cf-76c8-4807-9595-635ad0ba6667")
+	)
+	(wire
+		(pts
+			(xy 153.67 139.7) (xy 153.67 158.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "08d084c0-b511-4fbb-a77b-a983c20911e5")
 	)
 	(wire
 		(pts
@@ -1970,16 +1990,6 @@
 	)
 	(wire
 		(pts
-			(xy 115.57 139.7) (xy 115.57 158.75)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1369c02d-787f-4876-b513-7f5a4af7532f")
-	)
-	(wire
-		(pts
 			(xy 140.97 114.3) (xy 140.97 120.65)
 		)
 		(stroke
@@ -1990,7 +2000,17 @@
 	)
 	(wire
 		(pts
-			(xy 102.87 139.7) (xy 102.87 158.75)
+			(xy 52.07 120.65) (xy 52.07 139.7)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "19dbfedb-e8dc-4c18-a800-fe9fcd1d278b")
+	)
+	(wire
+		(pts
+			(xy 102.87 114.3) (xy 102.87 120.65)
 		)
 		(stroke
 			(width 0)
@@ -2000,7 +2020,17 @@
 	)
 	(wire
 		(pts
-			(xy 39.37 139.7) (xy 39.37 158.75)
+			(xy 102.87 120.65) (xy 102.87 139.7)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1b5c666f-8b0f-429d-9dd2-8c5e29f66eef")
+	)
+	(wire
+		(pts
+			(xy 39.37 114.3) (xy 39.37 120.65)
 		)
 		(stroke
 			(width 0)
@@ -2020,16 +2050,6 @@
 	)
 	(wire
 		(pts
-			(xy 52.07 139.7) (xy 52.07 158.75)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2039bbbf-6c7f-4502-8bfe-691de2b155d7")
-	)
-	(wire
-		(pts
 			(xy 69.85 152.4) (xy 82.55 152.4)
 		)
 		(stroke
@@ -2040,43 +2060,13 @@
 	)
 	(wire
 		(pts
-			(xy 77.47 120.65) (xy 77.47 139.7)
+			(xy 64.77 158.75) (xy 64.77 177.8)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "234dd89a-3093-4f05-8c17-f9f1c30827fd")
-	)
-	(wire
-		(pts
-			(xy 115.57 114.3) (xy 115.57 120.65)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "25ced08a-1a1f-47e9-b3ff-f955ee6ddf3b")
-	)
-	(wire
-		(pts
-			(xy 128.27 158.75) (xy 128.27 177.8)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2757f668-86eb-446f-9106-118ec9fad578")
-	)
-	(wire
-		(pts
-			(xy 26.67 120.65) (xy 26.67 139.7)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2b80f2a3-375b-4129-8e21-6ffd3965f0b2")
+		(uuid "25acd48f-8949-485d-8cfc-60d311f45d55")
 	)
 	(wire
 		(pts
@@ -2086,7 +2076,17 @@
 			(width 0)
 			(type default)
 		)
-		(uuid "2c889e99-fc9f-474f-a219-3893316d55f6")
+		(uuid "2757f668-86eb-446f-9106-118ec9fad578")
+	)
+	(wire
+		(pts
+			(xy 26.67 114.3) (xy 26.67 120.65)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2b80f2a3-375b-4129-8e21-6ffd3965f0b2")
 	)
 	(wire
 		(pts
@@ -2100,16 +2100,6 @@
 	)
 	(wire
 		(pts
-			(xy 102.87 120.65) (xy 102.87 139.7)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "30f6416a-a519-4ef8-b486-850cc3692e01")
-	)
-	(wire
-		(pts
 			(xy 69.85 133.35) (xy 82.55 133.35)
 		)
 		(stroke
@@ -2120,23 +2110,53 @@
 	)
 	(wire
 		(pts
-			(xy 153.67 114.3) (xy 153.67 120.65)
+			(xy 102.87 158.75) (xy 102.87 177.8)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "389ef7a4-586e-40ce-aca5-420c3b582dda")
+		(uuid "342a9eb4-1080-4196-80bb-a8df5f149ae4")
 	)
 	(wire
 		(pts
-			(xy 64.77 158.75) (xy 64.77 177.8)
+			(xy 64.77 114.3) (xy 64.77 120.65)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "39e8ad19-ce40-43ea-82ec-f713a371a8f4")
+	)
+	(wire
+		(pts
+			(xy 128.27 158.75) (xy 128.27 177.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3a94b775-ca32-4410-bc83-290cd4b044d9")
+	)
+	(wire
+		(pts
+			(xy 64.77 139.7) (xy 64.77 158.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3c41b2e6-88ef-40ad-838b-26861d0dd8d5")
+	)
+	(wire
+		(pts
+			(xy 140.97 120.65) (xy 140.97 139.7)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3da90cb7-977d-4cd2-b574-8223f4095820")
 	)
 	(wire
 		(pts
@@ -2158,6 +2178,26 @@
 		)
 		(uuid "46c23305-5846-4c2f-9cca-ce04dc6aef73")
 	)
+	(wire
+		(pts
+			(xy 140.97 139.7) (xy 140.97 158.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4a19e9d3-6390-43f7-ae6d-45017c38840e")
+	)
+	(wire
+		(pts
+			(xy 39.37 120.65) (xy 39.37 139.7)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4c512632-93b4-431c-b1ce-908b8fa38b24")
+	)
 	(polyline
 		(pts
 			(xy 104.14 12.7) (xy 104.14 42.164)
@@ -2167,16 +2207,6 @@
 			(type default)
 		)
 		(uuid "4d6cebd6-836a-4004-9298-f83f004ad59a")
-	)
-	(wire
-		(pts
-			(xy 140.97 120.65) (xy 140.97 139.7)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4e9209f4-330f-4036-af05-cd7c0dcb3bb6")
 	)
 	(wire
 		(pts
@@ -2190,16 +2220,6 @@
 	)
 	(wire
 		(pts
-			(xy 39.37 114.3) (xy 39.37 120.65)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5285cced-4e65-4a62-b712-f33084df7de9")
-	)
-	(wire
-		(pts
 			(xy 82.55 190.5) (xy 107.95 190.5)
 		)
 		(stroke
@@ -2207,16 +2227,6 @@
 			(type default)
 		)
 		(uuid "52e4387e-8837-497a-8e3c-d3bcc0336276")
-	)
-	(wire
-		(pts
-			(xy 52.07 120.65) (xy 52.07 139.7)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "57e555cc-b63c-4b6a-8b35-ae33747f9400")
 	)
 	(wire
 		(pts
@@ -2270,7 +2280,17 @@
 	)
 	(wire
 		(pts
-			(xy 77.47 158.75) (xy 77.47 177.8)
+			(xy 52.07 139.7) (xy 52.07 158.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "74dd1e71-dcd7-4b44-975d-dfb171c6708e")
+	)
+	(wire
+		(pts
+			(xy 77.47 114.3) (xy 77.47 120.65)
 		)
 		(stroke
 			(width 0)
@@ -2287,16 +2307,6 @@
 			(type default)
 		)
 		(uuid "77411734-629e-40de-b040-a2b5630a5543")
-	)
-	(wire
-		(pts
-			(xy 77.47 139.7) (xy 77.47 158.75)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "77cbadff-f1e1-4e55-b5a7-8690937f2278")
 	)
 	(wire
 		(pts
@@ -2320,17 +2330,27 @@
 	)
 	(wire
 		(pts
-			(xy 140.97 139.7) (xy 140.97 158.75)
+			(xy 77.47 120.65) (xy 77.47 139.7)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "80532f7e-df85-4c3e-a2c9-0fa9857445aa")
+		(uuid "8e9db177-922e-4a4e-a374-ed115ba08501")
 	)
 	(wire
 		(pts
-			(xy 115.57 158.75) (xy 115.57 177.8)
+			(xy 77.47 139.7) (xy 77.47 158.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8f7bbc57-dbdb-4be6-a499-c2a3cc8ee1a0")
+	)
+	(wire
+		(pts
+			(xy 115.57 139.7) (xy 115.57 158.75)
 		)
 		(stroke
 			(width 0)
@@ -2350,16 +2370,6 @@
 	)
 	(wire
 		(pts
-			(xy 77.47 114.3) (xy 77.47 120.65)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9429e83d-710e-498f-9278-af82302eb9d6")
-	)
-	(wire
-		(pts
 			(xy 107.95 152.4) (xy 120.65 152.4)
 		)
 		(stroke
@@ -2370,7 +2380,7 @@
 	)
 	(wire
 		(pts
-			(xy 128.27 120.65) (xy 128.27 139.7)
+			(xy 128.27 114.3) (xy 128.27 120.65)
 		)
 		(stroke
 			(width 0)
@@ -2390,16 +2400,6 @@
 	)
 	(wire
 		(pts
-			(xy 64.77 139.7) (xy 64.77 158.75)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a0683e9e-a8a6-4dde-a150-7b81f13aabfc")
-	)
-	(wire
-		(pts
 			(xy 107.95 190.5) (xy 120.65 190.5)
 		)
 		(stroke
@@ -2410,13 +2410,23 @@
 	)
 	(wire
 		(pts
-			(xy 128.27 114.3) (xy 128.27 120.65)
+			(xy 128.27 120.65) (xy 128.27 139.7)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "ab8b2b13-aaa0-4abc-b202-b146a3a13ea5")
+		(uuid "a20f490d-0a51-4821-856b-32a378a483de")
+	)
+	(wire
+		(pts
+			(xy 77.47 158.75) (xy 77.47 177.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "abb3a9cd-8d2b-4183-b548-365df42648ff")
 	)
 	(wire
 		(pts
@@ -2450,33 +2460,13 @@
 	)
 	(wire
 		(pts
-			(xy 102.87 158.75) (xy 102.87 177.8)
+			(xy 102.87 139.7) (xy 102.87 158.75)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "b0599fba-16e1-4f7e-b3c6-1a3dfa0db2ff")
-	)
-	(wire
-		(pts
-			(xy 39.37 120.65) (xy 39.37 139.7)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b07e067c-66fd-458c-9d96-077582d44ead")
-	)
-	(wire
-		(pts
-			(xy 26.67 139.7) (xy 26.67 158.75)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b34b9ce4-3328-4f39-96ff-19d4249ebd45")
 	)
 	(wire
 		(pts
@@ -2490,13 +2480,13 @@
 	)
 	(wire
 		(pts
-			(xy 52.07 114.3) (xy 52.07 120.65)
+			(xy 64.77 120.65) (xy 64.77 139.7)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "bedb305f-dce0-4fb8-b445-140f5ed30104")
+		(uuid "bce37236-38df-46a0-976e-6ec46e5061b1")
 	)
 	(wire
 		(pts
@@ -2517,16 +2507,6 @@
 			(type default)
 		)
 		(uuid "bf695533-e905-4b73-92b7-952f01376d1d")
-	)
-	(wire
-		(pts
-			(xy 26.67 114.3) (xy 26.67 120.65)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c10757e0-06c7-43d4-aa2b-43bf860bbc06")
 	)
 	(wire
 		(pts
@@ -2560,13 +2540,23 @@
 	)
 	(wire
 		(pts
-			(xy 64.77 120.65) (xy 64.77 139.7)
+			(xy 26.67 139.7) (xy 26.67 158.75)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "cab5ca92-836a-4bae-be3c-cf4f9414b94f")
+		(uuid "c8e9b1db-e984-4656-bf3e-cb275ef96edc")
+	)
+	(wire
+		(pts
+			(xy 115.57 158.75) (xy 115.57 177.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d0b6f2b0-bc6a-4d69-b1b7-93148ca17aeb")
 	)
 	(wire
 		(pts
@@ -2580,17 +2570,7 @@
 	)
 	(wire
 		(pts
-			(xy 153.67 139.7) (xy 153.67 158.75)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d9c97424-3078-4b67-b9d8-7797090c6212")
-	)
-	(wire
-		(pts
-			(xy 115.57 120.65) (xy 115.57 139.7)
+			(xy 115.57 114.3) (xy 115.57 120.65)
 		)
 		(stroke
 			(width 0)
@@ -2600,13 +2580,13 @@
 	)
 	(wire
 		(pts
-			(xy 102.87 114.3) (xy 102.87 120.65)
+			(xy 26.67 120.65) (xy 26.67 139.7)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "dc0cf8a4-1750-4570-b068-544d227ac5d8")
+		(uuid "e3f8abed-1d86-405a-bf42-73c5ec88ac31")
 	)
 	(wire
 		(pts
@@ -2630,7 +2610,7 @@
 	)
 	(wire
 		(pts
-			(xy 153.67 120.65) (xy 153.67 139.7)
+			(xy 153.67 114.3) (xy 153.67 120.65)
 		)
 		(stroke
 			(width 0)
@@ -2670,6 +2650,36 @@
 	)
 	(wire
 		(pts
+			(xy 52.07 158.75) (xy 52.07 177.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fa7dbd89-82be-4ced-b09c-81b4d2a2724c")
+	)
+	(wire
+		(pts
+			(xy 115.57 120.65) (xy 115.57 139.7)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fb75899f-ec8e-4f08-b3e2-9116da594ba0")
+	)
+	(wire
+		(pts
+			(xy 39.37 139.7) (xy 39.37 158.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fbf458d8-8830-4a12-b1b6-7b91e603ad90")
+	)
+	(wire
+		(pts
 			(xy 57.15 152.4) (xy 69.85 152.4)
 		)
 		(stroke
@@ -2677,16 +2687,6 @@
 			(type default)
 		)
 		(uuid "fcefac3d-2562-4128-9f76-3b25bf6db432")
-	)
-	(wire
-		(pts
-			(xy 64.77 114.3) (xy 64.77 120.65)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "fed95f23-c67a-4809-b2e1-b0a59189bb7d")
 	)
 	(rectangle
 		(start 70.866 12.446)
@@ -3516,6 +3516,142 @@
 		)
 	)
 	(symbol
+		(lib_id "PCM_marbastlib-mx:MX_SW_HS_CPG151101S11")
+		(at 143.51 142.24 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "03913458-41cd-45b1-942c-e425c2b4e016")
+		(property "Reference" "MX19"
+			(at 143.51 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "MX_SW_HS"
+			(at 143.51 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "PCM_marbastlib-mx:SW_MX_HS_CPG151101S11_1u"
+			(at 143.51 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 143.51 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Push button switch, normally open, two pins, 45° tilted, Kailh CPG151101S11 for Cherry MX style switches"
+			(at 143.51 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "36dcc909-bc0b-40d5-9baa-0dab4f9c0cf4")
+		)
+		(pin "2"
+			(uuid "1f396a0a-844b-4776-8ef4-63f95b6f3e42")
+		)
+		(instances
+			(project "fatboy"
+				(path "/ebfc642c-0c68-4d3e-b71f-85668561aa10"
+					(reference "MX19")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PCM_marbastlib-mx:MX_SW_HS_CPG151101S11")
+		(at 67.31 123.19 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "07e305a3-88c5-4bdd-8290-833e3309f7cd")
+		(property "Reference" "MX4"
+			(at 67.31 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "MX_SW_HS"
+			(at 67.31 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "PCM_marbastlib-mx:SW_MX_HS_CPG151101S11_1u"
+			(at 67.31 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 67.31 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Push button switch, normally open, two pins, 45° tilted, Kailh CPG151101S11 for Cherry MX style switches"
+			(at 67.31 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "70af8f59-39e7-4b2f-8624-06d6560065c8")
+		)
+		(pin "2"
+			(uuid "320d995f-ef94-49d9-8729-d27e8dc1689d")
+		)
+		(instances
+			(project "fatboy"
+				(path "/ebfc642c-0c68-4d3e-b71f-85668561aa10"
+					(reference "MX4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Diode:1N4148W")
 		(at 107.95 129.54 90)
 		(unit 1)
@@ -3598,6 +3734,74 @@
 			(project "fatboy"
 				(path "/ebfc642c-0c68-4d3e-b71f-85668561aa10"
 					(reference "D6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PCM_marbastlib-mx:MX_SW_HS_CPG151101S11")
+		(at 118.11 142.24 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "0b3791df-e114-41f3-9b38-bd576a8f777a")
+		(property "Reference" "MX17"
+			(at 118.11 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "MX_SW_HS"
+			(at 118.11 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "PCM_marbastlib-mx:SW_MX_HS_CPG151101S11_1u"
+			(at 118.11 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 118.11 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Push button switch, normally open, two pins, 45° tilted, Kailh CPG151101S11 for Cherry MX style switches"
+			(at 118.11 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "6c3c5588-3227-4e7b-812f-eea239e03f4d")
+		)
+		(pin "2"
+			(uuid "5041bbac-09ce-4b2f-ad3a-19d1159f3ab5")
+		)
+		(instances
+			(project "fatboy"
+				(path "/ebfc642c-0c68-4d3e-b71f-85668561aa10"
+					(reference "MX17")
 					(unit 1)
 				)
 			)
@@ -3692,74 +3896,6 @@
 		)
 	)
 	(symbol
-		(lib_id "marbastlib-mx:MX_SW_HS")
-		(at 67.31 123.19 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "167755c5-9512-422b-a20a-fd55fde1a7ed")
-		(property "Reference" "MX4"
-			(at 67.31 115.57 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "MX_SW_HS"
-			(at 67.31 118.11 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "fatboy:SW_MX_HS_1u"
-			(at 67.31 123.19 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 67.31 123.19 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 67.31 123.19 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "be2e5a4f-7a71-4aa9-994d-380d8d8bde4e")
-		)
-		(pin "1"
-			(uuid "681cb9ff-e97f-4926-90bd-0c0ac5d77102")
-		)
-		(instances
-			(project "fatboy"
-				(path "/ebfc642c-0c68-4d3e-b71f-85668561aa10"
-					(reference "MX4")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Diode:1N4148W")
 		(at 82.55 148.59 90)
 		(unit 1)
@@ -3848,17 +3984,17 @@
 		)
 	)
 	(symbol
-		(lib_id "marbastlib-mx:MX_SW_HS")
-		(at 67.31 142.24 0)
+		(lib_id "PCM_marbastlib-mx:MX_SW_HS_CPG151101S11")
+		(at 54.61 161.29 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "1a2f5696-5418-4306-8523-66970c3c0aa8")
-		(property "Reference" "MX14"
-			(at 67.31 134.62 0)
+		(uuid "18ecd95b-d0e6-4154-9554-7eeeb1ffea1c")
+		(property "Reference" "MX23"
+			(at 54.61 153.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3866,15 +4002,15 @@
 			)
 		)
 		(property "Value" "MX_SW_HS"
-			(at 67.31 137.16 0)
+			(at 54.61 156.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" "fatboy:SW_MX_HS_1u"
-			(at 67.31 142.24 0)
+		(property "Footprint" "PCM_marbastlib-mx:SW_MX_HS_CPG151101S11_1u"
+			(at 54.61 161.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3883,7 +4019,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 67.31 142.24 0)
+			(at 54.61 161.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3891,25 +4027,25 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 67.31 142.24 0)
+		(property "Description" "Push button switch, normally open, two pins, 45° tilted, Kailh CPG151101S11 for Cherry MX style switches"
+			(at 54.61 161.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(hide yes)
 			)
-		)
-		(pin "2"
-			(uuid "ee0ed198-cfc5-4da3-bc9f-13d6d3d2b763")
 		)
 		(pin "1"
-			(uuid "9e3728d8-443f-4d21-8e67-9dafd299b0cb")
+			(uuid "657f77e0-db6d-49c1-a239-fbf863c24649")
+		)
+		(pin "2"
+			(uuid "1523648c-2f66-4a1f-8d49-5c464fb563db")
 		)
 		(instances
 			(project "fatboy"
 				(path "/ebfc642c-0c68-4d3e-b71f-85668561aa10"
-					(reference "MX14")
+					(reference "MX23")
 					(unit 1)
 				)
 			)
@@ -4004,17 +4140,17 @@
 		)
 	)
 	(symbol
-		(lib_id "marbastlib-mx:MX_SW_HS")
-		(at 130.81 142.24 0)
+		(lib_id "PCM_marbastlib-mx:MX_SW_HS_CPG151101S11")
+		(at 29.21 142.24 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "1b4999f3-2824-4b4e-b95f-421af9bfeef2")
-		(property "Reference" "MX18"
-			(at 130.81 134.62 0)
+		(uuid "1b1ca061-4b56-4020-b899-ffa16b18cd6f")
+		(property "Reference" "MX11"
+			(at 29.21 134.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4022,15 +4158,15 @@
 			)
 		)
 		(property "Value" "MX_SW_HS"
-			(at 130.81 137.16 0)
+			(at 29.21 137.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" "fatboy:SW_MX_HS_1u"
-			(at 130.81 142.24 0)
+		(property "Footprint" "PCM_marbastlib-mx:SW_MX_HS_CPG151101S11_1u"
+			(at 29.21 142.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4039,7 +4175,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 130.81 142.24 0)
+			(at 29.21 142.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4047,42 +4183,42 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 130.81 142.24 0)
+		(property "Description" "Push button switch, normally open, two pins, 45° tilted, Kailh CPG151101S11 for Cherry MX style switches"
+			(at 29.21 142.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(hide yes)
 			)
-		)
-		(pin "2"
-			(uuid "0e5f1366-68b0-4aab-a60d-89eef1c70e51")
 		)
 		(pin "1"
-			(uuid "3a85a12d-6603-4e4c-9931-66d8133cf80a")
+			(uuid "667f6148-5bf6-4c9c-89b7-1ff576d5bddd")
+		)
+		(pin "2"
+			(uuid "daa192d6-4883-4ca2-b0aa-d74aaeb8b385")
 		)
 		(instances
 			(project "fatboy"
 				(path "/ebfc642c-0c68-4d3e-b71f-85668561aa10"
-					(reference "MX18")
+					(reference "MX11")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "marbastlib-mx:MX_SW_HS")
-		(at 130.81 180.34 0)
+		(lib_id "PCM_marbastlib-mx:MX_SW_HS_CPG151101S11")
+		(at 156.21 142.24 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "1b5b4746-28d7-4519-bf9a-c190ddc5d919")
-		(property "Reference" "MX36"
-			(at 130.81 172.72 0)
+		(uuid "1d25d8a3-f82c-426d-8e42-4cdb8bbbb8ec")
+		(property "Reference" "MX20"
+			(at 156.21 134.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4090,15 +4226,15 @@
 			)
 		)
 		(property "Value" "MX_SW_HS"
-			(at 130.81 175.26 0)
+			(at 156.21 137.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" "fatboy:SW_MX_HS_1u"
-			(at 130.81 180.34 0)
+		(property "Footprint" "PCM_marbastlib-mx:SW_MX_HS_CPG151101S11_1u"
+			(at 156.21 142.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4107,7 +4243,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 130.81 180.34 0)
+			(at 156.21 142.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4115,25 +4251,93 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 130.81 180.34 0)
+		(property "Description" "Push button switch, normally open, two pins, 45° tilted, Kailh CPG151101S11 for Cherry MX style switches"
+			(at 156.21 142.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(hide yes)
 			)
-		)
-		(pin "2"
-			(uuid "8775b3ef-ed69-4f16-9f62-ccf788017650")
 		)
 		(pin "1"
-			(uuid "ab2449d1-d3a0-4906-819e-4d18bde8fdec")
+			(uuid "2fdf6cde-d5f5-4188-8e7c-c474b1b39343")
+		)
+		(pin "2"
+			(uuid "76b6889b-d1b6-4a42-ada1-e4447d93a5e7")
 		)
 		(instances
 			(project "fatboy"
 				(path "/ebfc642c-0c68-4d3e-b71f-85668561aa10"
-					(reference "MX36")
+					(reference "MX20")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PCM_marbastlib-mx:MX_SW_HS_CPG151101S11")
+		(at 54.61 123.19 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1dcf7ad3-1170-4028-a24e-4af46e4ade46")
+		(property "Reference" "MX3"
+			(at 54.61 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "MX_SW_HS"
+			(at 54.61 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "PCM_marbastlib-mx:SW_MX_HS_CPG151101S11_1u"
+			(at 54.61 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 54.61 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Push button switch, normally open, two pins, 45° tilted, Kailh CPG151101S11 for Cherry MX style switches"
+			(at 54.61 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "093ad43c-a32b-4901-b450-8a68dfb86158")
+		)
+		(pin "2"
+			(uuid "4289f29e-b0ca-4e18-b733-7ec64c926fae")
+		)
+		(instances
+			(project "fatboy"
+				(path "/ebfc642c-0c68-4d3e-b71f-85668561aa10"
+					(reference "MX3")
 					(unit 1)
 				)
 			)
@@ -4207,17 +4411,17 @@
 		)
 	)
 	(symbol
-		(lib_id "marbastlib-mx:MX_SW_HS")
-		(at 118.11 161.29 0)
+		(lib_id "PCM_marbastlib-mx:MX_SW_HS_CPG151101S11")
+		(at 80.01 180.34 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "2394b8a0-3813-433d-a75e-4ca223820f7d")
-		(property "Reference" "MX27"
-			(at 118.11 153.67 0)
+		(uuid "200d1781-6658-49ac-a678-23e527acf480")
+		(property "Reference" "MX33"
+			(at 80.01 172.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4225,15 +4429,15 @@
 			)
 		)
 		(property "Value" "MX_SW_HS"
-			(at 118.11 156.21 0)
+			(at 80.01 175.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" "fatboy:SW_MX_HS_1u"
-			(at 118.11 161.29 0)
+		(property "Footprint" "PCM_marbastlib-mx:SW_MX_HS_CPG151101S11_1u"
+			(at 80.01 180.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4242,7 +4446,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 118.11 161.29 0)
+			(at 80.01 180.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4250,42 +4454,42 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 118.11 161.29 0)
+		(property "Description" "Push button switch, normally open, two pins, 45° tilted, Kailh CPG151101S11 for Cherry MX style switches"
+			(at 80.01 180.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(hide yes)
 			)
-		)
-		(pin "2"
-			(uuid "768f91ce-f230-4786-9419-810378219ea6")
 		)
 		(pin "1"
-			(uuid "1c946117-c547-470c-a4ae-5febcc3c68ac")
+			(uuid "44d866ff-71ed-49dc-aea9-30a91e2a547e")
+		)
+		(pin "2"
+			(uuid "71f4442b-de40-4dc7-bdef-0556970b2281")
 		)
 		(instances
 			(project "fatboy"
 				(path "/ebfc642c-0c68-4d3e-b71f-85668561aa10"
-					(reference "MX27")
+					(reference "MX33")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "marbastlib-mx:MX_SW_HS")
-		(at 130.81 123.19 0)
+		(lib_id "PCM_marbastlib-mx:MX_SW_HS_CPG151101S11")
+		(at 29.21 123.19 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "25d8a139-16d9-4377-b7cc-468d81ed5b1a")
-		(property "Reference" "MX8"
-			(at 130.81 115.57 0)
+		(uuid "2738e9f9-f4a0-4978-a194-7c8661fee3f5")
+		(property "Reference" "MX1"
+			(at 29.21 115.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4293,15 +4497,15 @@
 			)
 		)
 		(property "Value" "MX_SW_HS"
-			(at 130.81 118.11 0)
+			(at 29.21 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" "fatboy:SW_MX_HS_1u"
-			(at 130.81 123.19 0)
+		(property "Footprint" "PCM_marbastlib-mx:SW_MX_HS_CPG151101S11_1u"
+			(at 29.21 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4310,7 +4514,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 130.81 123.19 0)
+			(at 29.21 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4318,161 +4522,25 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 130.81 123.19 0)
+		(property "Description" "Push button switch, normally open, two pins, 45° tilted, Kailh CPG151101S11 for Cherry MX style switches"
+			(at 29.21 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(hide yes)
 			)
-		)
-		(pin "2"
-			(uuid "79457360-47ad-4027-9802-4e454960a149")
 		)
 		(pin "1"
-			(uuid "d4f78f7b-334d-481e-857b-7ff5c07aedd0")
+			(uuid "074ac909-c309-4afa-b036-088d21595ab0")
+		)
+		(pin "2"
+			(uuid "e970ff0f-80f8-450c-90f4-2f16464f2761")
 		)
 		(instances
 			(project "fatboy"
 				(path "/ebfc642c-0c68-4d3e-b71f-85668561aa10"
-					(reference "MX8")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "marbastlib-mx:MX_SW_HS")
-		(at 105.41 123.19 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "2bde92d3-4009-4cba-8618-17ba21ef913a")
-		(property "Reference" "MX6"
-			(at 105.41 115.57 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "MX_SW_HS"
-			(at 105.41 118.11 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "fatboy:SW_MX_HS_1u"
-			(at 105.41 123.19 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 105.41 123.19 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 105.41 123.19 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "c4fbcb83-8045-4032-aeef-1409d5847276")
-		)
-		(pin "1"
-			(uuid "4422eaf8-a7d9-4f16-a452-b0a7ea384704")
-		)
-		(instances
-			(project "fatboy"
-				(path "/ebfc642c-0c68-4d3e-b71f-85668561aa10"
-					(reference "MX6")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "marbastlib-mx:MX_SW_HS")
-		(at 105.41 180.34 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "2c8d953e-4bc5-4344-8bec-fc0668538acb")
-		(property "Reference" "MX34"
-			(at 105.41 172.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "MX_SW_HS"
-			(at 105.41 175.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "fatboy:SW_MX_HS_1u"
-			(at 105.41 180.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 105.41 180.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 105.41 180.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "4bb36f5a-237a-4016-9399-102d35dd53a8")
-		)
-		(pin "1"
-			(uuid "352c04a0-99c4-4046-9a3b-e6ce766e1c9d")
-		)
-		(instances
-			(project "fatboy"
-				(path "/ebfc642c-0c68-4d3e-b71f-85668561aa10"
-					(reference "MX34")
+					(reference "MX1")
 					(unit 1)
 				)
 			)
@@ -4567,10 +4635,78 @@
 		)
 	)
 	(symbol
+		(lib_id "PCM_marbastlib-mx:MX_SW_HS_CPG151101S11")
+		(at 105.41 142.24 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "2dd322ca-d563-4ad5-a9d5-c50c6dee0db6")
+		(property "Reference" "MX16"
+			(at 105.41 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "MX_SW_HS"
+			(at 105.41 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "PCM_marbastlib-mx:SW_MX_HS_CPG151101S11_1u"
+			(at 105.41 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 105.41 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Push button switch, normally open, two pins, 45° tilted, Kailh CPG151101S11 for Cherry MX style switches"
+			(at 105.41 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e0fdf03a-124f-49c4-b3d6-6d9c637e1183")
+		)
+		(pin "2"
+			(uuid "08638ea7-fd08-439b-8c4c-758f20b6d64d")
+		)
+		(instances
+			(project "fatboy"
+				(path "/ebfc642c-0c68-4d3e-b71f-85668561aa10"
+					(reference "MX16")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "marbastlib-promicroish:Helios")
 		(at 38.1 48.26 0)
 		(unit 1)
-		(exclude_from_sim no)
+		(exclude_from_sim yes)
 		(in_bom no)
 		(on_board yes)
 		(dnp no)
@@ -4594,7 +4730,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "fatboy:Helios_ACH"
+		(property "Footprint" "PCM_marbastlib-xp-promicroish:Helios_ACH"
 			(at 38.1 72.39 0)
 			(effects
 				(font
@@ -4997,346 +5133,6 @@
 		)
 	)
 	(symbol
-		(lib_id "marbastlib-mx:MX_SW_HS")
-		(at 118.11 142.24 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "3a38ef3f-1b63-436a-8386-65743dcb3ad4")
-		(property "Reference" "MX17"
-			(at 118.11 134.62 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "MX_SW_HS"
-			(at 118.11 137.16 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "fatboy:SW_MX_HS_1u"
-			(at 118.11 142.24 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 118.11 142.24 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 118.11 142.24 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "6abc196e-9c8c-4085-8dbb-4144f2c47ff5")
-		)
-		(pin "1"
-			(uuid "9b98915a-ebb0-4c3e-8e7b-8a70148f998d")
-		)
-		(instances
-			(project "fatboy"
-				(path "/ebfc642c-0c68-4d3e-b71f-85668561aa10"
-					(reference "MX17")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "marbastlib-mx:MX_SW_HS")
-		(at 105.41 161.29 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "3cded134-2ce2-48b1-821b-f7a97a7b5c94")
-		(property "Reference" "MX26"
-			(at 105.41 153.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "MX_SW_HS"
-			(at 105.41 156.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "fatboy:SW_MX_HS_1u"
-			(at 105.41 161.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 105.41 161.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 105.41 161.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "36983782-0a04-421e-baff-6b6e3cb8b6f9")
-		)
-		(pin "1"
-			(uuid "96efc5c1-04eb-456d-bffc-210666763d35")
-		)
-		(instances
-			(project "fatboy"
-				(path "/ebfc642c-0c68-4d3e-b71f-85668561aa10"
-					(reference "MX26")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "marbastlib-mx:MX_SW_HS")
-		(at 54.61 180.34 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "3ce07774-6367-4be6-8b0c-5bdea58b4a63")
-		(property "Reference" "MX31"
-			(at 54.61 172.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "MX_SW_HS"
-			(at 54.61 175.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "fatboy:SW_MX_HS_1u"
-			(at 54.61 180.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 54.61 180.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 54.61 180.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "619008ec-c0ad-47e9-ba0e-4c9ad4df29e5")
-		)
-		(pin "1"
-			(uuid "c847bf1b-9ddb-4eeb-9615-aa2c4dbb9e0c")
-		)
-		(instances
-			(project "fatboy"
-				(path "/ebfc642c-0c68-4d3e-b71f-85668561aa10"
-					(reference "MX31")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "marbastlib-mx:MX_SW_HS")
-		(at 156.21 142.24 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "3d1224c2-cc38-49ac-9ed4-490b1d12387c")
-		(property "Reference" "MX20"
-			(at 156.21 134.62 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "MX_SW_HS"
-			(at 156.21 137.16 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "fatboy:SW_MX_HS_1u"
-			(at 156.21 142.24 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 156.21 142.24 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 156.21 142.24 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "62539c9a-9b93-4573-80a3-55d92fd29110")
-		)
-		(pin "1"
-			(uuid "cb5a4385-6361-4e76-9bd7-eb1bc07f0626")
-		)
-		(instances
-			(project "fatboy"
-				(path "/ebfc642c-0c68-4d3e-b71f-85668561aa10"
-					(reference "MX20")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "marbastlib-mx:MX_SW_HS")
-		(at 29.21 142.24 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "3d457b61-4da9-48b8-b0d8-6ef754d75cab")
-		(property "Reference" "MX11"
-			(at 29.21 134.62 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "MX_SW_HS"
-			(at 29.21 137.16 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "fatboy:SW_MX_HS_1u"
-			(at 29.21 142.24 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 29.21 142.24 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 29.21 142.24 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "f7791d8e-d1fe-42c6-a70d-c142b6dfed99")
-		)
-		(pin "1"
-			(uuid "8077bea9-1e66-443c-894c-753ccb7d8478")
-		)
-		(instances
-			(project "fatboy"
-				(path "/ebfc642c-0c68-4d3e-b71f-85668561aa10"
-					(reference "MX11")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Diode:1N4148W")
 		(at 69.85 129.54 90)
 		(unit 1)
@@ -5580,17 +5376,17 @@
 		)
 	)
 	(symbol
-		(lib_id "marbastlib-mx:MX_SW_HS")
-		(at 105.41 142.24 0)
+		(lib_id "PCM_marbastlib-mx:MX_SW_HS_CPG151101S11")
+		(at 156.21 161.29 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "442a7511-a063-42a7-a633-98b71b0d7b28")
-		(property "Reference" "MX16"
-			(at 105.41 134.62 0)
+		(uuid "4607729c-fa0c-4bb1-91b3-1634802d7e14")
+		(property "Reference" "MX30"
+			(at 156.21 153.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5598,15 +5394,15 @@
 			)
 		)
 		(property "Value" "MX_SW_HS"
-			(at 105.41 137.16 0)
+			(at 156.21 156.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" "fatboy:SW_MX_HS_1u"
-			(at 105.41 142.24 0)
+		(property "Footprint" "PCM_marbastlib-mx:SW_MX_HS_CPG151101S11_1u"
+			(at 156.21 161.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5615,7 +5411,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 105.41 142.24 0)
+			(at 156.21 161.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5623,25 +5419,25 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 105.41 142.24 0)
+		(property "Description" "Push button switch, normally open, two pins, 45° tilted, Kailh CPG151101S11 for Cherry MX style switches"
+			(at 156.21 161.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(hide yes)
 			)
-		)
-		(pin "2"
-			(uuid "e499872f-2d80-412a-9b82-7263a918cd3d")
 		)
 		(pin "1"
-			(uuid "107ceab2-b3a4-4218-a7c8-c4531003fa3e")
+			(uuid "543ce449-a952-446e-bf27-95619b78fa44")
+		)
+		(pin "2"
+			(uuid "35b5ef9e-22ad-4ab4-8d42-53ff6a926597")
 		)
 		(instances
 			(project "fatboy"
 				(path "/ebfc642c-0c68-4d3e-b71f-85668561aa10"
-					(reference "MX16")
+					(reference "MX30")
 					(unit 1)
 				)
 			)
@@ -5736,17 +5532,17 @@
 		)
 	)
 	(symbol
-		(lib_id "marbastlib-mx:MX_SW_HS")
-		(at 54.61 142.24 0)
+		(lib_id "PCM_marbastlib-mx:MX_SW_HS_CPG151101S11")
+		(at 118.11 161.29 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "46fbb700-cfe5-4f01-a2b2-d20b1cf9dba9")
-		(property "Reference" "MX13"
-			(at 54.61 134.62 0)
+		(uuid "4e5a4f61-3ff4-4069-aa44-45bd1949d79f")
+		(property "Reference" "MX27"
+			(at 118.11 153.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5754,15 +5550,15 @@
 			)
 		)
 		(property "Value" "MX_SW_HS"
-			(at 54.61 137.16 0)
+			(at 118.11 156.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" "fatboy:SW_MX_HS_1u"
-			(at 54.61 142.24 0)
+		(property "Footprint" "PCM_marbastlib-mx:SW_MX_HS_CPG151101S11_1u"
+			(at 118.11 161.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5771,7 +5567,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 54.61 142.24 0)
+			(at 118.11 161.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5779,161 +5575,25 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 54.61 142.24 0)
+		(property "Description" "Push button switch, normally open, two pins, 45° tilted, Kailh CPG151101S11 for Cherry MX style switches"
+			(at 118.11 161.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(hide yes)
 			)
-		)
-		(pin "2"
-			(uuid "71475660-7dc2-4c7b-8946-4e8b91e4d9a8")
 		)
 		(pin "1"
-			(uuid "7ee84d42-df89-4243-b37b-3181229547f2")
+			(uuid "a1b7f639-8cb9-4893-97b4-991eb2dea636")
+		)
+		(pin "2"
+			(uuid "0c24b88e-da64-4dc5-a7c0-3ac93b0191a2")
 		)
 		(instances
 			(project "fatboy"
 				(path "/ebfc642c-0c68-4d3e-b71f-85668561aa10"
-					(reference "MX13")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "marbastlib-mx:MX_SW_HS")
-		(at 80.01 180.34 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "4acc0393-15f7-454a-b54c-a30fd13410d8")
-		(property "Reference" "MX33"
-			(at 80.01 172.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "MX_SW_HS"
-			(at 80.01 175.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "fatboy:SW_MX_HS_1u"
-			(at 80.01 180.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 80.01 180.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 80.01 180.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "d38d619b-f288-41ac-b348-b61589bad04d")
-		)
-		(pin "1"
-			(uuid "cd3b7169-2cdb-48a0-afca-7ccd4fbeb241")
-		)
-		(instances
-			(project "fatboy"
-				(path "/ebfc642c-0c68-4d3e-b71f-85668561aa10"
-					(reference "MX33")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "marbastlib-mx:MX_SW_HS")
-		(at 80.01 123.19 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "4e67dd0f-cb33-43fd-b016-74fddfc8d147")
-		(property "Reference" "MX5"
-			(at 80.01 115.57 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "MX_SW_HS"
-			(at 80.01 118.11 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "fatboy:SW_MX_HS_1u"
-			(at 80.01 123.19 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 80.01 123.19 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 80.01 123.19 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "5ddb7882-5a1c-4099-ba18-461be18757b4")
-		)
-		(pin "1"
-			(uuid "48f49d7b-37b1-4e41-b658-65099daa7914")
-		)
-		(instances
-			(project "fatboy"
-				(path "/ebfc642c-0c68-4d3e-b71f-85668561aa10"
-					(reference "MX5")
+					(reference "MX27")
 					(unit 1)
 				)
 			)
@@ -6116,17 +5776,17 @@
 		)
 	)
 	(symbol
-		(lib_id "marbastlib-mx:MX_SW_HS")
-		(at 130.81 161.29 0)
+		(lib_id "PCM_marbastlib-mx:MX_SW_HS_CPG151101S11")
+		(at 29.21 161.29 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "5a13c4a0-df44-45e1-bb5a-c09d2086b4c5")
-		(property "Reference" "MX28"
-			(at 130.81 153.67 0)
+		(uuid "571c5714-33a9-4e16-a789-0a26a9f99a38")
+		(property "Reference" "MX21"
+			(at 29.21 153.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6134,15 +5794,15 @@
 			)
 		)
 		(property "Value" "MX_SW_HS"
-			(at 130.81 156.21 0)
+			(at 29.21 156.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" "fatboy:SW_MX_HS_1u"
-			(at 130.81 161.29 0)
+		(property "Footprint" "PCM_marbastlib-mx:SW_MX_HS_CPG151101S11_1u"
+			(at 29.21 161.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6151,7 +5811,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 130.81 161.29 0)
+			(at 29.21 161.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6159,161 +5819,25 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 130.81 161.29 0)
+		(property "Description" "Push button switch, normally open, two pins, 45° tilted, Kailh CPG151101S11 for Cherry MX style switches"
+			(at 29.21 161.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(hide yes)
 			)
-		)
-		(pin "2"
-			(uuid "a08ded09-2bbd-48d5-a5e8-d39d7f56ea1a")
 		)
 		(pin "1"
-			(uuid "7a613b92-b8f2-4af8-8a78-b2e9b286662f")
+			(uuid "83d13b1f-60d6-4fa0-a6cd-1c11b8644e0d")
+		)
+		(pin "2"
+			(uuid "22afbfcb-f6f9-4f49-a929-adc507b034cf")
 		)
 		(instances
 			(project "fatboy"
 				(path "/ebfc642c-0c68-4d3e-b71f-85668561aa10"
-					(reference "MX28")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "marbastlib-mx:MX_SW_HS")
-		(at 143.51 123.19 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "5d961551-ce27-4b0f-9958-1ec16fe2a035")
-		(property "Reference" "MX9"
-			(at 143.51 115.57 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "MX_SW_HS"
-			(at 143.51 118.11 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "fatboy:SW_MX_HS_1u"
-			(at 143.51 123.19 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 143.51 123.19 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 143.51 123.19 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "5e000a7b-620f-40eb-80f4-0c67e468dc97")
-		)
-		(pin "1"
-			(uuid "8a3df5ac-dcd5-44c3-9d46-b9d741de7a28")
-		)
-		(instances
-			(project "fatboy"
-				(path "/ebfc642c-0c68-4d3e-b71f-85668561aa10"
-					(reference "MX9")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "marbastlib-mx:MX_SW_HS")
-		(at 54.61 123.19 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "614e22fe-6477-4a12-a44b-e0cda4beb92e")
-		(property "Reference" "MX3"
-			(at 54.61 115.57 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "MX_SW_HS"
-			(at 54.61 118.11 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "fatboy:SW_MX_HS_1u"
-			(at 54.61 123.19 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 54.61 123.19 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 54.61 123.19 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "383f7f0b-bfd0-49ef-be00-6a105cfb31e0")
-		)
-		(pin "1"
-			(uuid "b642c900-8651-4d8c-9e23-2ad68725420a")
-		)
-		(instances
-			(project "fatboy"
-				(path "/ebfc642c-0c68-4d3e-b71f-85668561aa10"
-					(reference "MX3")
+					(reference "MX21")
 					(unit 1)
 				)
 			)
@@ -6402,6 +5926,74 @@
 			(project "fatboy"
 				(path "/ebfc642c-0c68-4d3e-b71f-85668561aa10"
 					(reference "D14")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PCM_marbastlib-mx:MX_SW_HS_CPG151101S11")
+		(at 130.81 161.29 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "66932e04-328a-4d7c-a19e-dc480a03a437")
+		(property "Reference" "MX28"
+			(at 130.81 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "MX_SW_HS"
+			(at 130.81 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "PCM_marbastlib-mx:SW_MX_HS_CPG151101S11_1u"
+			(at 130.81 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 130.81 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Push button switch, normally open, two pins, 45° tilted, Kailh CPG151101S11 for Cherry MX style switches"
+			(at 130.81 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "65ed754e-49ac-45ba-86f0-840fed38a56d")
+		)
+		(pin "2"
+			(uuid "54a4e986-dee1-409b-b566-e0b85f3c1ac5")
+		)
+		(instances
+			(project "fatboy"
+				(path "/ebfc642c-0c68-4d3e-b71f-85668561aa10"
+					(reference "MX28")
 					(unit 1)
 				)
 			)
@@ -6584,74 +6176,6 @@
 		)
 	)
 	(symbol
-		(lib_id "marbastlib-mx:MX_SW_HS")
-		(at 41.91 142.24 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "77b9eb6d-4c68-4bbc-9319-d355b27d0b5c")
-		(property "Reference" "MX12"
-			(at 41.91 134.62 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "MX_SW_HS"
-			(at 41.91 137.16 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "fatboy:SW_MX_HS_1u"
-			(at 41.91 142.24 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 41.91 142.24 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 41.91 142.24 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "3207c3e8-48c9-4575-9ddd-5b1e506b73e0")
-		)
-		(pin "1"
-			(uuid "76154cc9-1a9e-4ff4-82c0-f2b514440e83")
-		)
-		(instances
-			(project "fatboy"
-				(path "/ebfc642c-0c68-4d3e-b71f-85668561aa10"
-					(reference "MX12")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Diode:1N4148W")
 		(at 107.95 186.69 90)
 		(unit 1)
@@ -6734,6 +6258,74 @@
 			(project "fatboy"
 				(path "/ebfc642c-0c68-4d3e-b71f-85668561aa10"
 					(reference "D34")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PCM_marbastlib-mx:MX_SW_HS_CPG151101S11")
+		(at 105.41 180.34 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "7f2c05e5-6ef3-4d97-8b20-c5d7bf05365c")
+		(property "Reference" "MX34"
+			(at 105.41 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "MX_SW_HS"
+			(at 105.41 175.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "PCM_marbastlib-mx:SW_MX_HS_CPG151101S11_1u"
+			(at 105.41 180.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 105.41 180.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Push button switch, normally open, two pins, 45° tilted, Kailh CPG151101S11 for Cherry MX style switches"
+			(at 105.41 180.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f74339ac-72e5-4aaf-80c9-519ce5735238")
+		)
+		(pin "2"
+			(uuid "fe401d30-3b9a-4f07-9744-71c06e9349b6")
+		)
+		(instances
+			(project "fatboy"
+				(path "/ebfc642c-0c68-4d3e-b71f-85668561aa10"
+					(reference "MX34")
 					(unit 1)
 				)
 			)
@@ -6828,17 +6420,17 @@
 		)
 	)
 	(symbol
-		(lib_id "marbastlib-mx:MX_SW_HS")
-		(at 41.91 161.29 0)
+		(lib_id "PCM_marbastlib-mx:MX_SW_HS_CPG151101S11")
+		(at 130.81 180.34 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "842b30ed-339e-445e-a21a-6238b0d8f3dd")
-		(property "Reference" "MX22"
-			(at 41.91 153.67 0)
+		(uuid "84874bcc-166f-460f-908f-0b1afe11ec86")
+		(property "Reference" "MX36"
+			(at 130.81 172.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6846,15 +6438,15 @@
 			)
 		)
 		(property "Value" "MX_SW_HS"
-			(at 41.91 156.21 0)
+			(at 130.81 175.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" "fatboy:SW_MX_HS_1u"
-			(at 41.91 161.29 0)
+		(property "Footprint" "PCM_marbastlib-mx:SW_MX_HS_CPG151101S11_1u"
+			(at 130.81 180.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6863,7 +6455,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 41.91 161.29 0)
+			(at 130.81 180.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6871,42 +6463,42 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 41.91 161.29 0)
+		(property "Description" "Push button switch, normally open, two pins, 45° tilted, Kailh CPG151101S11 for Cherry MX style switches"
+			(at 130.81 180.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(hide yes)
 			)
-		)
-		(pin "2"
-			(uuid "8780a1c3-7dff-4375-bd6e-a4a0252c1676")
 		)
 		(pin "1"
-			(uuid "09715073-6f24-49ad-840d-8a12458adc7d")
+			(uuid "6fe86a50-b663-4707-8a2d-521fd5036568")
+		)
+		(pin "2"
+			(uuid "413167e2-4ee2-4547-a20b-db351c6b998e")
 		)
 		(instances
 			(project "fatboy"
 				(path "/ebfc642c-0c68-4d3e-b71f-85668561aa10"
-					(reference "MX22")
+					(reference "MX36")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "marbastlib-mx:MX_SW_HS")
-		(at 143.51 161.29 0)
+		(lib_id "PCM_marbastlib-mx:MX_SW_HS_CPG151101S11")
+		(at 143.51 123.19 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "885311fc-f307-4211-89ff-b3117f34de88")
-		(property "Reference" "MX29"
-			(at 143.51 153.67 0)
+		(uuid "86cdb610-33f7-4665-90df-7542229017e4")
+		(property "Reference" "MX9"
+			(at 143.51 115.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6914,15 +6506,15 @@
 			)
 		)
 		(property "Value" "MX_SW_HS"
-			(at 143.51 156.21 0)
+			(at 143.51 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" "fatboy:SW_MX_HS_1u"
-			(at 143.51 161.29 0)
+		(property "Footprint" "PCM_marbastlib-mx:SW_MX_HS_CPG151101S11_1u"
+			(at 143.51 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6931,7 +6523,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 143.51 161.29 0)
+			(at 143.51 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6939,25 +6531,25 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 143.51 161.29 0)
+		(property "Description" "Push button switch, normally open, two pins, 45° tilted, Kailh CPG151101S11 for Cherry MX style switches"
+			(at 143.51 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(hide yes)
 			)
-		)
-		(pin "2"
-			(uuid "3ab16b5d-670d-46ac-8889-d40b0127aa30")
 		)
 		(pin "1"
-			(uuid "27b4e6bb-db61-4d87-91fb-29c084dc9da2")
+			(uuid "c6c2a4c9-4d0a-4faa-9a29-fc3d603fa459")
+		)
+		(pin "2"
+			(uuid "095efc78-1003-4051-8493-753851cade0a")
 		)
 		(instances
 			(project "fatboy"
 				(path "/ebfc642c-0c68-4d3e-b71f-85668561aa10"
-					(reference "MX29")
+					(reference "MX9")
 					(unit 1)
 				)
 			)
@@ -7295,17 +6887,17 @@
 		)
 	)
 	(symbol
-		(lib_id "marbastlib-mx:MX_SW_HS")
-		(at 67.31 161.29 0)
+		(lib_id "PCM_marbastlib-mx:MX_SW_HS_CPG151101S11")
+		(at 80.01 142.24 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "8bbe189f-e8c0-48d0-9628-bf9db832d81b")
-		(property "Reference" "MX24"
-			(at 67.31 153.67 0)
+		(uuid "8b90172e-2bee-41fb-8c48-972a1e78f7e9")
+		(property "Reference" "MX15"
+			(at 80.01 134.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7313,15 +6905,15 @@
 			)
 		)
 		(property "Value" "MX_SW_HS"
-			(at 67.31 156.21 0)
+			(at 80.01 137.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" "fatboy:SW_MX_HS_1u"
-			(at 67.31 161.29 0)
+		(property "Footprint" "PCM_marbastlib-mx:SW_MX_HS_CPG151101S11_1u"
+			(at 80.01 142.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7330,7 +6922,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 67.31 161.29 0)
+			(at 80.01 142.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7338,42 +6930,42 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 67.31 161.29 0)
+		(property "Description" "Push button switch, normally open, two pins, 45° tilted, Kailh CPG151101S11 for Cherry MX style switches"
+			(at 80.01 142.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(hide yes)
 			)
-		)
-		(pin "2"
-			(uuid "227c5c2b-38ea-4012-84e2-51399127cb59")
 		)
 		(pin "1"
-			(uuid "87798fb2-cd38-43ea-9ab2-7c883d7dce79")
+			(uuid "35b4ce59-cfa4-4bec-9598-f15cf378a4f7")
+		)
+		(pin "2"
+			(uuid "ee3de455-a53f-4caf-a467-c0548b146b5b")
 		)
 		(instances
 			(project "fatboy"
 				(path "/ebfc642c-0c68-4d3e-b71f-85668561aa10"
-					(reference "MX24")
+					(reference "MX15")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "marbastlib-mx:MX_SW_HS")
-		(at 67.31 180.34 0)
+		(lib_id "PCM_marbastlib-mx:MX_SW_HS_CPG151101S11")
+		(at 105.41 123.19 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "8d0bcad3-8939-4395-8127-1dab06aa59db")
-		(property "Reference" "MX32"
-			(at 67.31 172.72 0)
+		(uuid "8ed9b19e-1b1a-49f6-a753-cd74557536ea")
+		(property "Reference" "MX6"
+			(at 105.41 115.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7381,15 +6973,15 @@
 			)
 		)
 		(property "Value" "MX_SW_HS"
-			(at 67.31 175.26 0)
+			(at 105.41 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" "fatboy:SW_MX_HS_1u"
-			(at 67.31 180.34 0)
+		(property "Footprint" "PCM_marbastlib-mx:SW_MX_HS_CPG151101S11_1u"
+			(at 105.41 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7398,7 +6990,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 67.31 180.34 0)
+			(at 105.41 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7406,25 +6998,25 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 67.31 180.34 0)
+		(property "Description" "Push button switch, normally open, two pins, 45° tilted, Kailh CPG151101S11 for Cherry MX style switches"
+			(at 105.41 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(hide yes)
 			)
-		)
-		(pin "2"
-			(uuid "9ff1ed16-cc03-4b52-a51f-91f8311db873")
 		)
 		(pin "1"
-			(uuid "002a4d66-7606-4540-8b72-8fc711223651")
+			(uuid "b94a8d5b-41a8-4eab-bc18-3f0c6a7cd739")
+		)
+		(pin "2"
+			(uuid "199cc4c8-8619-46de-bba2-78bdda9b3856")
 		)
 		(instances
 			(project "fatboy"
 				(path "/ebfc642c-0c68-4d3e-b71f-85668561aa10"
-					(reference "MX32")
+					(reference "MX6")
 					(unit 1)
 				)
 			)
@@ -7513,74 +7105,6 @@
 			(project "fatboy"
 				(path "/ebfc642c-0c68-4d3e-b71f-85668561aa10"
 					(reference "D9")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "marbastlib-mx:MX_SW_HS")
-		(at 156.21 161.29 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "93c57e0d-9506-482c-8026-a768a63fc026")
-		(property "Reference" "MX30"
-			(at 156.21 153.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "MX_SW_HS"
-			(at 156.21 156.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "fatboy:SW_MX_HS_1u"
-			(at 156.21 161.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 156.21 161.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 156.21 161.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "e7a64198-6c58-4049-8e20-43a44c7c180c")
-		)
-		(pin "1"
-			(uuid "88a8e3d8-3620-4632-9a2f-3802019ccab9")
-		)
-		(instances
-			(project "fatboy"
-				(path "/ebfc642c-0c68-4d3e-b71f-85668561aa10"
-					(reference "MX30")
 					(unit 1)
 				)
 			)
@@ -8027,17 +7551,17 @@
 		)
 	)
 	(symbol
-		(lib_id "marbastlib-mx:MX_SW_HS")
-		(at 80.01 161.29 0)
+		(lib_id "PCM_marbastlib-mx:MX_SW_HS_CPG151101S11")
+		(at 41.91 142.24 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "a827e1d3-3b0a-4c0e-ac06-81dd8660b3ed")
-		(property "Reference" "MX25"
-			(at 80.01 153.67 0)
+		(uuid "a72ee9d8-e29d-45bd-b9c3-78a55a06ea1c")
+		(property "Reference" "MX12"
+			(at 41.91 134.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8045,15 +7569,15 @@
 			)
 		)
 		(property "Value" "MX_SW_HS"
-			(at 80.01 156.21 0)
+			(at 41.91 137.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" "fatboy:SW_MX_HS_1u"
-			(at 80.01 161.29 0)
+		(property "Footprint" "PCM_marbastlib-mx:SW_MX_HS_CPG151101S11_1u"
+			(at 41.91 142.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8062,7 +7586,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 80.01 161.29 0)
+			(at 41.91 142.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8070,25 +7594,25 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 80.01 161.29 0)
+		(property "Description" "Push button switch, normally open, two pins, 45° tilted, Kailh CPG151101S11 for Cherry MX style switches"
+			(at 41.91 142.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(hide yes)
 			)
-		)
-		(pin "2"
-			(uuid "3381f568-489c-4055-a733-08597da316e7")
 		)
 		(pin "1"
-			(uuid "f4757951-5b34-41a5-9df3-7197a776bf40")
+			(uuid "37414649-279b-43aa-ba4f-d27369a92b36")
+		)
+		(pin "2"
+			(uuid "865be731-bdf9-4fdd-a54a-297f212e52d1")
 		)
 		(instances
 			(project "fatboy"
 				(path "/ebfc642c-0c68-4d3e-b71f-85668561aa10"
-					(reference "MX25")
+					(reference "MX12")
 					(unit 1)
 				)
 			)
@@ -8168,17 +7692,17 @@
 		)
 	)
 	(symbol
-		(lib_id "marbastlib-mx:MX_SW_HS")
-		(at 29.21 161.29 0)
+		(lib_id "PCM_marbastlib-mx:MX_SW_HS_CPG151101S11")
+		(at 54.61 142.24 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "aa985ed0-c533-4a84-91e9-8e01d1105d31")
-		(property "Reference" "MX21"
-			(at 29.21 153.67 0)
+		(uuid "aa6468d7-01be-4026-a3bc-0437fd195a08")
+		(property "Reference" "MX13"
+			(at 54.61 134.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8186,15 +7710,15 @@
 			)
 		)
 		(property "Value" "MX_SW_HS"
-			(at 29.21 156.21 0)
+			(at 54.61 137.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" "fatboy:SW_MX_HS_1u"
-			(at 29.21 161.29 0)
+		(property "Footprint" "PCM_marbastlib-mx:SW_MX_HS_CPG151101S11_1u"
+			(at 54.61 142.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8203,7 +7727,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 29.21 161.29 0)
+			(at 54.61 142.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8211,42 +7735,42 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 29.21 161.29 0)
+		(property "Description" "Push button switch, normally open, two pins, 45° tilted, Kailh CPG151101S11 for Cherry MX style switches"
+			(at 54.61 142.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(hide yes)
 			)
-		)
-		(pin "2"
-			(uuid "7c361f80-dcb3-45e6-8a4f-162fbe85bac2")
 		)
 		(pin "1"
-			(uuid "5529c4de-675e-4b77-aaf8-0157df93205b")
+			(uuid "fa6ae409-f118-410a-a94c-b5d5f9887c87")
+		)
+		(pin "2"
+			(uuid "1412191e-57da-4b7a-81d5-044ef1de86eb")
 		)
 		(instances
 			(project "fatboy"
 				(path "/ebfc642c-0c68-4d3e-b71f-85668561aa10"
-					(reference "MX21")
+					(reference "MX13")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "marbastlib-mx:MX_SW_HS")
-		(at 80.01 142.24 0)
+		(lib_id "PCM_marbastlib-mx:MX_SW_HS_CPG151101S11")
+		(at 143.51 161.29 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "b0d1c079-42f2-4ace-907d-24e497761dfc")
-		(property "Reference" "MX15"
-			(at 80.01 134.62 0)
+		(uuid "b233de3d-265c-4fcc-853b-452242e568b1")
+		(property "Reference" "MX29"
+			(at 143.51 153.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8254,15 +7778,15 @@
 			)
 		)
 		(property "Value" "MX_SW_HS"
-			(at 80.01 137.16 0)
+			(at 143.51 156.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" "fatboy:SW_MX_HS_1u"
-			(at 80.01 142.24 0)
+		(property "Footprint" "PCM_marbastlib-mx:SW_MX_HS_CPG151101S11_1u"
+			(at 143.51 161.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8271,7 +7795,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 80.01 142.24 0)
+			(at 143.51 161.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8279,25 +7803,93 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 80.01 142.24 0)
+		(property "Description" "Push button switch, normally open, two pins, 45° tilted, Kailh CPG151101S11 for Cherry MX style switches"
+			(at 143.51 161.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(hide yes)
 			)
-		)
-		(pin "2"
-			(uuid "941cf587-8c37-4035-87cf-0ab9831a4f7f")
 		)
 		(pin "1"
-			(uuid "d689fd1c-408e-42b1-a7bd-74826f130d21")
+			(uuid "5698d5d3-1cdd-41cb-9201-0f7c1b575fc8")
+		)
+		(pin "2"
+			(uuid "87470eed-99bc-45bc-b5da-d99272250984")
 		)
 		(instances
 			(project "fatboy"
 				(path "/ebfc642c-0c68-4d3e-b71f-85668561aa10"
-					(reference "MX15")
+					(reference "MX29")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PCM_marbastlib-mx:MX_SW_HS_CPG151101S11")
+		(at 130.81 142.24 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b3a77f05-3fde-46f8-a604-996e4b203f7f")
+		(property "Reference" "MX18"
+			(at 130.81 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "MX_SW_HS"
+			(at 130.81 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "PCM_marbastlib-mx:SW_MX_HS_CPG151101S11_1u"
+			(at 130.81 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 130.81 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Push button switch, normally open, two pins, 45° tilted, Kailh CPG151101S11 for Cherry MX style switches"
+			(at 130.81 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ad5ca9c4-cd44-42ab-931d-27f5ead6f100")
+		)
+		(pin "2"
+			(uuid "f7b7a7c3-539c-4cb2-acb4-3e7b8c97c5b5")
+		)
+		(instances
+			(project "fatboy"
+				(path "/ebfc642c-0c68-4d3e-b71f-85668561aa10"
+					(reference "MX18")
 					(unit 1)
 				)
 			)
@@ -8392,17 +7984,17 @@
 		)
 	)
 	(symbol
-		(lib_id "marbastlib-mx:MX_SW_HS")
-		(at 29.21 123.19 0)
+		(lib_id "PCM_marbastlib-mx:MX_SW_HS_CPG151101S11")
+		(at 67.31 142.24 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "c312b51d-c5b9-4f77-9267-4c2196da5f34")
-		(property "Reference" "MX1"
-			(at 29.21 115.57 0)
+		(uuid "bfe9b7da-9549-418e-b5b3-2ed66a18049b")
+		(property "Reference" "MX14"
+			(at 67.31 134.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8410,15 +8002,15 @@
 			)
 		)
 		(property "Value" "MX_SW_HS"
-			(at 29.21 118.11 0)
+			(at 67.31 137.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" "fatboy:SW_MX_HS_1u"
-			(at 29.21 123.19 0)
+		(property "Footprint" "PCM_marbastlib-mx:SW_MX_HS_CPG151101S11_1u"
+			(at 67.31 142.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8427,7 +8019,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 29.21 123.19 0)
+			(at 67.31 142.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8435,25 +8027,25 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 29.21 123.19 0)
+		(property "Description" "Push button switch, normally open, two pins, 45° tilted, Kailh CPG151101S11 for Cherry MX style switches"
+			(at 67.31 142.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(hide yes)
 			)
-		)
-		(pin "2"
-			(uuid "095fa562-66c7-4a9e-94d8-bdf0e91847b5")
 		)
 		(pin "1"
-			(uuid "b67e95e6-0d12-4a1e-b304-dea5810ab88c")
+			(uuid "c589c497-ee94-4334-b597-d7e8792ccb69")
+		)
+		(pin "2"
+			(uuid "4fc668f0-6cb0-4fd6-9fd1-85c9e566926a")
 		)
 		(instances
 			(project "fatboy"
 				(path "/ebfc642c-0c68-4d3e-b71f-85668561aa10"
-					(reference "MX1")
+					(reference "MX14")
 					(unit 1)
 				)
 			)
@@ -8789,74 +8381,6 @@
 		)
 	)
 	(symbol
-		(lib_id "marbastlib-mx:MX_SW_HS")
-		(at 54.61 161.29 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "c7f3c4fb-3549-48a5-941e-c41a18e8f02f")
-		(property "Reference" "MX23"
-			(at 54.61 153.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "MX_SW_HS"
-			(at 54.61 156.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "fatboy:SW_MX_HS_1u"
-			(at 54.61 161.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 54.61 161.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 54.61 161.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "10a9a93c-7e2e-420e-ae3f-7a0715f68fc5")
-		)
-		(pin "1"
-			(uuid "90f0200d-37b8-49b1-9a11-d1d4139edf0e")
-		)
-		(instances
-			(project "fatboy"
-				(path "/ebfc642c-0c68-4d3e-b71f-85668561aa10"
-					(reference "MX23")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Switch:SW_Push")
 		(at 86.36 26.67 0)
 		(unit 1)
@@ -9086,6 +8610,74 @@
 		)
 	)
 	(symbol
+		(lib_id "PCM_marbastlib-mx:MX_SW_HS_CPG151101S11")
+		(at 41.91 161.29 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d7d2d4c7-03ca-4ef6-acc9-862ca9792e48")
+		(property "Reference" "MX22"
+			(at 41.91 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "MX_SW_HS"
+			(at 41.91 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "PCM_marbastlib-mx:SW_MX_HS_CPG151101S11_1u"
+			(at 41.91 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 41.91 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Push button switch, normally open, two pins, 45° tilted, Kailh CPG151101S11 for Cherry MX style switches"
+			(at 41.91 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "eca9e711-c561-4a35-aa31-fdded28fc349")
+		)
+		(pin "2"
+			(uuid "1904a2dc-f75f-4977-8e24-a6e3c8b6e0a0")
+		)
+		(instances
+			(project "fatboy"
+				(path "/ebfc642c-0c68-4d3e-b71f-85668561aa10"
+					(reference "MX22")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Diode:1N4148W")
 		(at 31.75 167.64 90)
 		(unit 1)
@@ -9168,6 +8760,142 @@
 			(project "fatboy"
 				(path "/ebfc642c-0c68-4d3e-b71f-85668561aa10"
 					(reference "D21")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PCM_marbastlib-mx:MX_SW_HS_CPG151101S11")
+		(at 67.31 161.29 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "db74fa72-c4e8-4c93-ab7c-9538ac960776")
+		(property "Reference" "MX24"
+			(at 67.31 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "MX_SW_HS"
+			(at 67.31 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "PCM_marbastlib-mx:SW_MX_HS_CPG151101S11_1u"
+			(at 67.31 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 67.31 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Push button switch, normally open, two pins, 45° tilted, Kailh CPG151101S11 for Cherry MX style switches"
+			(at 67.31 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "2bc76fbf-b179-4b49-a767-43ae11393ac9")
+		)
+		(pin "2"
+			(uuid "4c063f77-df93-4790-bd4b-2a84420fc383")
+		)
+		(instances
+			(project "fatboy"
+				(path "/ebfc642c-0c68-4d3e-b71f-85668561aa10"
+					(reference "MX24")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PCM_marbastlib-mx:MX_SW_HS_CPG151101S11")
+		(at 67.31 180.34 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e25e55b4-db59-482c-9191-8505e04911ca")
+		(property "Reference" "MX32"
+			(at 67.31 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "MX_SW_HS"
+			(at 67.31 175.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "PCM_marbastlib-mx:SW_MX_HS_CPG151101S11_1u"
+			(at 67.31 180.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 67.31 180.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Push button switch, normally open, two pins, 45° tilted, Kailh CPG151101S11 for Cherry MX style switches"
+			(at 67.31 180.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "84a925f2-d02e-41ec-907c-3d7709c7817f")
+		)
+		(pin "2"
+			(uuid "8d2fd6e3-d42d-4ee0-9cf2-f9d728744846")
+		)
+		(instances
+			(project "fatboy"
+				(path "/ebfc642c-0c68-4d3e-b71f-85668561aa10"
+					(reference "MX32")
 					(unit 1)
 				)
 			)
@@ -9262,74 +8990,6 @@
 		)
 	)
 	(symbol
-		(lib_id "marbastlib-mx:MX_SW_HS")
-		(at 143.51 142.24 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "e66b2065-2e29-4073-a99e-9fd4b27379b4")
-		(property "Reference" "MX19"
-			(at 143.51 134.62 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "MX_SW_HS"
-			(at 143.51 137.16 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "fatboy:SW_MX_HS_1u"
-			(at 143.51 142.24 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 143.51 142.24 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 143.51 142.24 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "d0b6101a-0056-4e5f-bb9d-2620aacbbb9e")
-		)
-		(pin "1"
-			(uuid "80539985-a92a-4bf7-a603-b25c33b5d72d")
-		)
-		(instances
-			(project "fatboy"
-				(path "/ebfc642c-0c68-4d3e-b71f-85668561aa10"
-					(reference "MX19")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Diode:1N4148W")
 		(at 107.95 167.64 90)
 		(unit 1)
@@ -9418,6 +9078,74 @@
 		)
 	)
 	(symbol
+		(lib_id "PCM_marbastlib-mx:MX_SW_HS_CPG151101S11")
+		(at 80.01 161.29 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e985f69d-6f1e-450a-98d1-f9e9eb3063bb")
+		(property "Reference" "MX25"
+			(at 80.01 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "MX_SW_HS"
+			(at 80.01 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "PCM_marbastlib-mx:SW_MX_HS_CPG151101S11_1u"
+			(at 80.01 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 80.01 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Push button switch, normally open, two pins, 45° tilted, Kailh CPG151101S11 for Cherry MX style switches"
+			(at 80.01 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "20e2104b-48e1-4470-b999-3b3d9e37e9de")
+		)
+		(pin "2"
+			(uuid "99b62dc2-1393-4cc3-81b0-653603b1efab")
+		)
+		(instances
+			(project "fatboy"
+				(path "/ebfc642c-0c68-4d3e-b71f-85668561aa10"
+					(reference "MX25")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 25.4 39.37 270)
 		(unit 1)
@@ -9485,7 +9213,7 @@
 		)
 	)
 	(symbol
-		(lib_id "marbastlib-mx:MX_SW_HS")
+		(lib_id "PCM_marbastlib-mx:MX_SW_HS_CPG151101S11")
 		(at 118.11 180.34 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -9493,7 +9221,7 @@
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "eecc6663-99f3-4edc-b404-0540cb6977c8")
+		(uuid "eab2013a-a780-4911-9f8b-8b49906c4f23")
 		(property "Reference" "MX35"
 			(at 118.11 172.72 0)
 			(effects
@@ -9510,7 +9238,7 @@
 				)
 			)
 		)
-		(property "Footprint" "fatboy:SW_MX_HS_1u"
+		(property "Footprint" "PCM_marbastlib-mx:SW_MX_HS_CPG151101S11_1u"
 			(at 118.11 180.34 0)
 			(effects
 				(font
@@ -9528,7 +9256,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Push button switch, normally open, two pins, 45° tilted, Kailh CPG151101S11 for Cherry MX style switches"
 			(at 118.11 180.34 0)
 			(effects
 				(font
@@ -9537,11 +9265,11 @@
 				(hide yes)
 			)
 		)
-		(pin "2"
-			(uuid "8b688b9f-b1ec-463a-bc17-7f2b88c93e1d")
-		)
 		(pin "1"
-			(uuid "5cb2f86a-c8b1-4451-98a3-0035a71f7667")
+			(uuid "74e537bf-05bf-4a4d-905b-59bd411112ed")
+		)
+		(pin "2"
+			(uuid "b66110cb-17c2-4986-ac90-def5b8c0a0d6")
 		)
 		(instances
 			(project "fatboy"
@@ -9553,17 +9281,17 @@
 		)
 	)
 	(symbol
-		(lib_id "marbastlib-mx:MX_SW_HS")
-		(at 118.11 123.19 0)
+		(lib_id "PCM_marbastlib-mx:MX_SW_HS_CPG151101S11")
+		(at 80.01 123.19 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "f0b35a42-ee93-42c4-8cf5-7c3f6825ad92")
-		(property "Reference" "MX7"
-			(at 118.11 115.57 0)
+		(uuid "eba2612e-e028-4a17-9b17-f32564bdbf98")
+		(property "Reference" "MX5"
+			(at 80.01 115.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9571,15 +9299,15 @@
 			)
 		)
 		(property "Value" "MX_SW_HS"
-			(at 118.11 118.11 0)
+			(at 80.01 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" "fatboy:SW_MX_HS_1u"
-			(at 118.11 123.19 0)
+		(property "Footprint" "PCM_marbastlib-mx:SW_MX_HS_CPG151101S11_1u"
+			(at 80.01 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9588,7 +9316,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 118.11 123.19 0)
+			(at 80.01 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9596,32 +9324,100 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 118.11 123.19 0)
+		(property "Description" "Push button switch, normally open, two pins, 45° tilted, Kailh CPG151101S11 for Cherry MX style switches"
+			(at 80.01 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(hide yes)
 			)
-		)
-		(pin "2"
-			(uuid "e33c18e6-88a8-4643-9e3d-7cf148332719")
 		)
 		(pin "1"
-			(uuid "dc3ea439-35a3-4143-a899-ef7a01027df6")
+			(uuid "1d6cbe4a-2cef-4504-b474-0a64175c442d")
+		)
+		(pin "2"
+			(uuid "4f8a7197-5fa3-4797-82e5-467efedf2791")
 		)
 		(instances
 			(project "fatboy"
 				(path "/ebfc642c-0c68-4d3e-b71f-85668561aa10"
-					(reference "MX7")
+					(reference "MX5")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "marbastlib-mx:MX_SW_HS")
+		(lib_id "PCM_marbastlib-mx:MX_SW_HS_CPG151101S11")
+		(at 130.81 123.19 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "efb81135-75b3-4325-bbf0-7078ec3de5d8")
+		(property "Reference" "MX8"
+			(at 130.81 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "MX_SW_HS"
+			(at 130.81 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "PCM_marbastlib-mx:SW_MX_HS_CPG151101S11_1u"
+			(at 130.81 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 130.81 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Push button switch, normally open, two pins, 45° tilted, Kailh CPG151101S11 for Cherry MX style switches"
+			(at 130.81 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "51bd5748-734f-419d-957b-209e176b57bc")
+		)
+		(pin "2"
+			(uuid "8dc4cba9-91ec-4e3d-a0c3-fa12bed49d8c")
+		)
+		(instances
+			(project "fatboy"
+				(path "/ebfc642c-0c68-4d3e-b71f-85668561aa10"
+					(reference "MX8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PCM_marbastlib-mx:MX_SW_HS_CPG151101S11")
 		(at 156.21 123.19 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -9629,7 +9425,7 @@
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "f53bc249-36eb-4ff7-994b-a59ebe1081ed")
+		(uuid "f07de7ab-7098-41a8-b4e3-811643b53fda")
 		(property "Reference" "MX10"
 			(at 156.21 115.57 0)
 			(effects
@@ -9646,7 +9442,7 @@
 				)
 			)
 		)
-		(property "Footprint" "fatboy:SW_MX_HS_1u"
+		(property "Footprint" "PCM_marbastlib-mx:SW_MX_HS_CPG151101S11_1u"
 			(at 156.21 123.19 0)
 			(effects
 				(font
@@ -9664,7 +9460,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Push button switch, normally open, two pins, 45° tilted, Kailh CPG151101S11 for Cherry MX style switches"
 			(at 156.21 123.19 0)
 			(effects
 				(font
@@ -9673,11 +9469,11 @@
 				(hide yes)
 			)
 		)
-		(pin "2"
-			(uuid "c05d4eba-63f9-4e2a-9626-e1c84199d17e")
-		)
 		(pin "1"
-			(uuid "a2a35511-abc8-4d26-8e5e-be3ae53ba127")
+			(uuid "227baaeb-b0e2-4fbf-a7c9-a09b61109abf")
+		)
+		(pin "2"
+			(uuid "e32da8cc-ff4f-4ae2-9619-759a90bd6a90")
 		)
 		(instances
 			(project "fatboy"
@@ -9689,7 +9485,75 @@
 		)
 	)
 	(symbol
-		(lib_id "marbastlib-mx:MX_SW_HS")
+		(lib_id "PCM_marbastlib-mx:MX_SW_HS_CPG151101S11")
+		(at 118.11 123.19 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f80dacd0-d117-4759-9fd1-50e79c1b50da")
+		(property "Reference" "MX7"
+			(at 118.11 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "MX_SW_HS"
+			(at 118.11 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "PCM_marbastlib-mx:SW_MX_HS_CPG151101S11_1u"
+			(at 118.11 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 118.11 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Push button switch, normally open, two pins, 45° tilted, Kailh CPG151101S11 for Cherry MX style switches"
+			(at 118.11 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "1db7534d-bcd7-45e2-ac9d-b7bf33a93a4a")
+		)
+		(pin "2"
+			(uuid "5c847119-02e9-4fc5-ac00-9f86af06a953")
+		)
+		(instances
+			(project "fatboy"
+				(path "/ebfc642c-0c68-4d3e-b71f-85668561aa10"
+					(reference "MX7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PCM_marbastlib-mx:MX_SW_HS_CPG151101S11")
 		(at 41.91 123.19 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -9697,7 +9561,7 @@
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "f85ba464-ad09-4ac6-a218-b751e3ffc627")
+		(uuid "f97853a9-1368-49ec-982b-0634b8381745")
 		(property "Reference" "MX2"
 			(at 41.91 115.57 0)
 			(effects
@@ -9714,7 +9578,7 @@
 				)
 			)
 		)
-		(property "Footprint" "fatboy:SW_MX_HS_1u"
+		(property "Footprint" "PCM_marbastlib-mx:SW_MX_HS_CPG151101S11_1u"
 			(at 41.91 123.19 0)
 			(effects
 				(font
@@ -9732,7 +9596,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Push button switch, normally open, two pins, 45° tilted, Kailh CPG151101S11 for Cherry MX style switches"
 			(at 41.91 123.19 0)
 			(effects
 				(font
@@ -9741,16 +9605,152 @@
 				(hide yes)
 			)
 		)
-		(pin "2"
-			(uuid "d6b97b29-6c3d-42ff-8f83-40e4b47eb1ec")
-		)
 		(pin "1"
-			(uuid "4b3a8b07-65e2-4aed-938f-b506cdead2df")
+			(uuid "566b2a39-14e5-4046-8e2e-0f3586d7553d")
+		)
+		(pin "2"
+			(uuid "be671756-b50e-4d75-80ae-be4326f56d50")
 		)
 		(instances
 			(project "fatboy"
 				(path "/ebfc642c-0c68-4d3e-b71f-85668561aa10"
 					(reference "MX2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PCM_marbastlib-mx:MX_SW_HS_CPG151101S11")
+		(at 105.41 161.29 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "fcb77bb5-9879-46af-badb-4ef0510cbd7a")
+		(property "Reference" "MX26"
+			(at 105.41 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "MX_SW_HS"
+			(at 105.41 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "PCM_marbastlib-mx:SW_MX_HS_CPG151101S11_1u"
+			(at 105.41 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 105.41 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Push button switch, normally open, two pins, 45° tilted, Kailh CPG151101S11 for Cherry MX style switches"
+			(at 105.41 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ca7fdb00-cac6-4144-a033-4dc289a0e4e4")
+		)
+		(pin "2"
+			(uuid "458f7ed2-fd22-4b22-a626-65f4a6295809")
+		)
+		(instances
+			(project "fatboy"
+				(path "/ebfc642c-0c68-4d3e-b71f-85668561aa10"
+					(reference "MX26")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PCM_marbastlib-mx:MX_SW_HS_CPG151101S11")
+		(at 54.61 180.34 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "fcf2e31d-341b-4a09-b136-d7f59114103e")
+		(property "Reference" "MX31"
+			(at 54.61 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "MX_SW_HS"
+			(at 54.61 175.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "PCM_marbastlib-mx:SW_MX_HS_CPG151101S11_1u"
+			(at 54.61 180.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 54.61 180.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Push button switch, normally open, two pins, 45° tilted, Kailh CPG151101S11 for Cherry MX style switches"
+			(at 54.61 180.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "fb1f4b7f-268d-4828-a047-bb18553a237f")
+		)
+		(pin "2"
+			(uuid "3dfb1fe6-6b4f-45ce-a961-fac0739d0f8a")
+		)
+		(instances
+			(project "fatboy"
+				(path "/ebfc642c-0c68-4d3e-b71f-85668561aa10"
+					(reference "MX31")
 					(unit 1)
 				)
 			)
