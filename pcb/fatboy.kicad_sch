@@ -8407,7 +8407,7 @@
 				)
 			)
 		)
-		(property "Footprint" "fatboy:top_reset"
+		(property "Footprint" "PCM_marbastlib-various:SW_SKHLLCA010"
 			(at 86.36 21.59 0)
 			(effects
 				(font
