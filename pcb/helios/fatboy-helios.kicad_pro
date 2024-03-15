@@ -52,7 +52,11 @@
         }
       },
       "diff_pair_dimensions": [],
-      "drc_exclusions": [],
+      "drc_exclusions": [
+        "silk_edge_clearance|307145063|111486860|c82ba9dc-daae-4304-87f5-de0f76f7b43d|87b2bf18-12b8-4395-91ea-cbad919a206f",
+        "silk_edge_clearance|309462624|130394153|c82ba9dc-daae-4304-87f5-de0f76f7b43d|ac7f0209-47ef-405b-a260-aeab0b82e068",
+        "silk_edge_clearance|311780184|149301444|c82ba9dc-daae-4304-87f5-de0f76f7b43d|fcde2426-4b09-4579-a631-c74eda2893c2"
+      ],
       "meta": {
         "version": 2
       },
@@ -319,7 +323,16 @@
     "equivalence_files": []
   },
   "erc": {
-    "erc_exclusions": [],
+    "erc_exclusions": [
+      "global_label_dangling|368300|266700|92aa49d3-515a-40b1-a8bb-eed8207475bb|00000000-0000-0000-0000-000000000000|/ebfc642c-0c68-4d3e-b71f-85668561aa10||",
+      "global_label_dangling|393700|266700|2200d344-628d-493c-a394-6ea093b333bb|00000000-0000-0000-0000-000000000000|/ebfc642c-0c68-4d3e-b71f-85668561aa10||",
+      "global_label_dangling|508000|342900|879642de-a40d-41a9-846a-56f70833e413|00000000-0000-0000-0000-000000000000|/ebfc642c-0c68-4d3e-b71f-85668561aa10||",
+      "pin_to_pin|254000|393700|fc1badca-6b16-4b7e-a988-672722dc64e9|15705663-9d01-480e-999a-b11b86ed0fdd|/ebfc642c-0c68-4d3e-b71f-85668561aa10|/ebfc642c-0c68-4d3e-b71f-85668561aa10|/ebfc642c-0c68-4d3e-b71f-85668561aa10",
+      "pin_to_pin|254000|393700|fc1badca-6b16-4b7e-a988-672722dc64e9|4b89a1d9-0efe-46bf-b82b-6ba5ae7d4dfb|/ebfc642c-0c68-4d3e-b71f-85668561aa10|/ebfc642c-0c68-4d3e-b71f-85668561aa10|/ebfc642c-0c68-4d3e-b71f-85668561aa10",
+      "pin_to_pin|254000|419100|4b89a1d9-0efe-46bf-b82b-6ba5ae7d4dfb|15705663-9d01-480e-999a-b11b86ed0fdd|/ebfc642c-0c68-4d3e-b71f-85668561aa10|/ebfc642c-0c68-4d3e-b71f-85668561aa10|/ebfc642c-0c68-4d3e-b71f-85668561aa10",
+      "pin_to_pin|508000|368300|15705663-9d01-480e-999a-b11b86ed0fdd|4b89a1d9-0efe-46bf-b82b-6ba5ae7d4dfb|/ebfc642c-0c68-4d3e-b71f-85668561aa10|/ebfc642c-0c68-4d3e-b71f-85668561aa10|/ebfc642c-0c68-4d3e-b71f-85668561aa10",
+      "pin_to_pin|508000|368300|15705663-9d01-480e-999a-b11b86ed0fdd|fc1badca-6b16-4b7e-a988-672722dc64e9|/ebfc642c-0c68-4d3e-b71f-85668561aa10|/ebfc642c-0c68-4d3e-b71f-85668561aa10|/ebfc642c-0c68-4d3e-b71f-85668561aa10"
+    ],
     "meta": {
       "version": 0
     },
@@ -519,7 +532,7 @@
       "no_connect_dangling": "warning",
       "pin_not_connected": "error",
       "pin_not_driven": "error",
-      "pin_to_pin": "ignore",
+      "pin_to_pin": "error",
       "power_pin_not_driven": "error",
       "similar_labels": "warning",
       "simulation_model_issue": "ignore",
@@ -534,7 +547,7 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "fatboy.kicad_pro",
+    "filename": "fatboy-helios.kicad_pro",
     "version": 1
   },
   "net_settings": {
