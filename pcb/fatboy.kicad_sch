@@ -1407,9 +1407,9 @@
 		)
 		(symbol "power:GND"
 			(power)
+			(pin_numbers hide)
 			(pin_names
-				(offset 0)
-			)
+				(offset 0) hide)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -1483,8 +1483,8 @@
 			(symbol "GND_1_1"
 				(pin power_in line
 					(at 0 0 270)
-					(length 0) hide
-					(name "GND"
+					(length 0)
+					(name "~"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -3625,7 +3625,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "fatboy:D_SOD-123"
+		(property "Footprint" "Diode_SMD:D_SOD-123"
 			(at 112.395 129.54 0)
 			(effects
 				(font
@@ -3643,7 +3643,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "75V 0.15A Fast Switching Diode, SOD-123"
 			(at 107.95 129.54 0)
 			(effects
 				(font
@@ -3713,7 +3713,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "fatboy:D_SOD-123"
+		(property "Footprint" "Diode_SMD:D_SOD-123"
 			(at 48.895 129.54 0)
 			(effects
 				(font
@@ -3731,7 +3731,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "75V 0.15A Fast Switching Diode, SOD-123"
 			(at 44.45 129.54 0)
 			(effects
 				(font
@@ -3799,7 +3799,7 @@
 				)
 			)
 		)
-		(property "Footprint" "fatboy:SW_MX_HS_1u"
+		(property "Footprint" "PCM_marbastlib-mx:SW_MX_HS_1u"
 			(at 67.31 123.19 0)
 			(effects
 				(font
@@ -3817,7 +3817,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Push button switch, normally open, two pins, 45° tilted"
 			(at 67.31 123.19 0)
 			(effects
 				(font
@@ -3869,7 +3869,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "fatboy:D_SOD-123"
+		(property "Footprint" "Diode_SMD:D_SOD-123"
 			(at 86.995 148.59 0)
 			(effects
 				(font
@@ -3887,7 +3887,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "75V 0.15A Fast Switching Diode, SOD-123"
 			(at 82.55 148.59 0)
 			(effects
 				(font
@@ -3955,7 +3955,7 @@
 				)
 			)
 		)
-		(property "Footprint" "fatboy:SW_MX_HS_1u"
+		(property "Footprint" "PCM_marbastlib-mx:SW_MX_HS_1u"
 			(at 67.31 142.24 0)
 			(effects
 				(font
@@ -3973,7 +3973,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Push button switch, normally open, two pins, 45° tilted"
 			(at 67.31 142.24 0)
 			(effects
 				(font
@@ -4025,7 +4025,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "fatboy:D_SOD-123"
+		(property "Footprint" "Diode_SMD:D_SOD-123"
 			(at 36.195 148.59 0)
 			(effects
 				(font
@@ -4043,7 +4043,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "75V 0.15A Fast Switching Diode, SOD-123"
 			(at 31.75 148.59 0)
 			(effects
 				(font
@@ -4111,7 +4111,7 @@
 				)
 			)
 		)
-		(property "Footprint" "fatboy:SW_MX_HS_1u"
+		(property "Footprint" "PCM_marbastlib-mx:SW_MX_HS_1u"
 			(at 130.81 142.24 0)
 			(effects
 				(font
@@ -4129,7 +4129,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Push button switch, normally open, two pins, 45° tilted"
 			(at 130.81 142.24 0)
 			(effects
 				(font
@@ -4179,7 +4179,7 @@
 				)
 			)
 		)
-		(property "Footprint" "fatboy:SW_MX_HS_1u"
+		(property "Footprint" "PCM_marbastlib-mx:SW_MX_HS_1u"
 			(at 130.81 180.34 0)
 			(effects
 				(font
@@ -4197,7 +4197,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Push button switch, normally open, two pins, 45° tilted"
 			(at 130.81 180.34 0)
 			(effects
 				(font
@@ -4267,7 +4267,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 77.47 26.035 0)
 			(effects
 				(font
@@ -4314,7 +4314,7 @@
 				)
 			)
 		)
-		(property "Footprint" "fatboy:SW_MX_HS_1u"
+		(property "Footprint" "PCM_marbastlib-mx:SW_MX_HS_1u"
 			(at 118.11 161.29 0)
 			(effects
 				(font
@@ -4332,7 +4332,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Push button switch, normally open, two pins, 45° tilted"
 			(at 118.11 161.29 0)
 			(effects
 				(font
@@ -4382,7 +4382,7 @@
 				)
 			)
 		)
-		(property "Footprint" "fatboy:SW_MX_HS_1u"
+		(property "Footprint" "PCM_marbastlib-mx:SW_MX_HS_1u"
 			(at 130.81 123.19 0)
 			(effects
 				(font
@@ -4400,7 +4400,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Push button switch, normally open, two pins, 45° tilted"
 			(at 130.81 123.19 0)
 			(effects
 				(font
@@ -4450,7 +4450,7 @@
 				)
 			)
 		)
-		(property "Footprint" "fatboy:SW_MX_HS_1u"
+		(property "Footprint" "PCM_marbastlib-mx:SW_MX_HS_1u"
 			(at 105.41 123.19 0)
 			(effects
 				(font
@@ -4468,7 +4468,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Push button switch, normally open, two pins, 45° tilted"
 			(at 105.41 123.19 0)
 			(effects
 				(font
@@ -4518,7 +4518,7 @@
 				)
 			)
 		)
-		(property "Footprint" "fatboy:SW_MX_HS_1u"
+		(property "Footprint" "PCM_marbastlib-mx:SW_MX_HS_1u"
 			(at 105.41 180.34 0)
 			(effects
 				(font
@@ -4536,7 +4536,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Push button switch, normally open, two pins, 45° tilted"
 			(at 105.41 180.34 0)
 			(effects
 				(font
@@ -4588,7 +4588,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "fatboy:D_SOD-123"
+		(property "Footprint" "Diode_SMD:D_SOD-123"
 			(at 36.195 129.54 0)
 			(effects
 				(font
@@ -4606,7 +4606,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "75V 0.15A Fast Switching Diode, SOD-123"
 			(at 31.75 129.54 0)
 			(effects
 				(font
@@ -4676,7 +4676,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "fatboy:Helios_ACH"
+		(property "Footprint" "PCM_marbastlib-xp-promicroish:Helios_AH_USBup"
 			(at 38.1 72.39 0)
 			(effects
 				(font
@@ -4694,7 +4694,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Symbol for an 0xCB Helios"
 			(at 38.1 48.26 0)
 			(effects
 				(font
@@ -4842,7 +4842,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "fatboy:D_SOD-123"
+		(property "Footprint" "Diode_SMD:D_SOD-123"
 			(at 48.895 148.59 0)
 			(effects
 				(font
@@ -4860,7 +4860,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "75V 0.15A Fast Switching Diode, SOD-123"
 			(at 44.45 148.59 0)
 			(effects
 				(font
@@ -4930,7 +4930,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "fatboy:D_SOD-123"
+		(property "Footprint" "Diode_SMD:D_SOD-123"
 			(at 137.795 129.54 0)
 			(effects
 				(font
@@ -4948,7 +4948,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "75V 0.15A Fast Switching Diode, SOD-123"
 			(at 133.35 129.54 0)
 			(effects
 				(font
@@ -5018,7 +5018,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "fatboy:D_SOD-123"
+		(property "Footprint" "Diode_SMD:D_SOD-123"
 			(at 61.595 148.59 0)
 			(effects
 				(font
@@ -5036,7 +5036,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "75V 0.15A Fast Switching Diode, SOD-123"
 			(at 57.15 148.59 0)
 			(effects
 				(font
@@ -5104,7 +5104,7 @@
 				)
 			)
 		)
-		(property "Footprint" "fatboy:SW_MX_HS_1u"
+		(property "Footprint" "PCM_marbastlib-mx:SW_MX_HS_1u"
 			(at 118.11 142.24 0)
 			(effects
 				(font
@@ -5122,7 +5122,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Push button switch, normally open, two pins, 45° tilted"
 			(at 118.11 142.24 0)
 			(effects
 				(font
@@ -5172,7 +5172,7 @@
 				)
 			)
 		)
-		(property "Footprint" "fatboy:SW_MX_HS_1u"
+		(property "Footprint" "PCM_marbastlib-mx:SW_MX_HS_1u"
 			(at 105.41 161.29 0)
 			(effects
 				(font
@@ -5190,7 +5190,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Push button switch, normally open, two pins, 45° tilted"
 			(at 105.41 161.29 0)
 			(effects
 				(font
@@ -5240,7 +5240,7 @@
 				)
 			)
 		)
-		(property "Footprint" "fatboy:SW_MX_HS_1u"
+		(property "Footprint" "PCM_marbastlib-mx:SW_MX_HS_1u"
 			(at 54.61 180.34 0)
 			(effects
 				(font
@@ -5258,7 +5258,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Push button switch, normally open, two pins, 45° tilted"
 			(at 54.61 180.34 0)
 			(effects
 				(font
@@ -5308,7 +5308,7 @@
 				)
 			)
 		)
-		(property "Footprint" "fatboy:SW_MX_HS_1u"
+		(property "Footprint" "PCM_marbastlib-mx:SW_MX_HS_1u"
 			(at 156.21 142.24 0)
 			(effects
 				(font
@@ -5326,7 +5326,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Push button switch, normally open, two pins, 45° tilted"
 			(at 156.21 142.24 0)
 			(effects
 				(font
@@ -5376,7 +5376,7 @@
 				)
 			)
 		)
-		(property "Footprint" "fatboy:SW_MX_HS_1u"
+		(property "Footprint" "PCM_marbastlib-mx:SW_MX_HS_1u"
 			(at 29.21 142.24 0)
 			(effects
 				(font
@@ -5394,7 +5394,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Push button switch, normally open, two pins, 45° tilted"
 			(at 29.21 142.24 0)
 			(effects
 				(font
@@ -5446,7 +5446,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "fatboy:D_SOD-123"
+		(property "Footprint" "Diode_SMD:D_SOD-123"
 			(at 74.295 129.54 0)
 			(effects
 				(font
@@ -5464,7 +5464,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "75V 0.15A Fast Switching Diode, SOD-123"
 			(at 69.85 129.54 0)
 			(effects
 				(font
@@ -5552,7 +5552,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 25.4 41.91 0)
 			(effects
 				(font
@@ -5601,7 +5601,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "fatboy:D_SOD-123"
+		(property "Footprint" "Diode_SMD:D_SOD-123"
 			(at 112.395 148.59 0)
 			(effects
 				(font
@@ -5619,7 +5619,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "75V 0.15A Fast Switching Diode, SOD-123"
 			(at 107.95 148.59 0)
 			(effects
 				(font
@@ -5687,7 +5687,7 @@
 				)
 			)
 		)
-		(property "Footprint" "fatboy:SW_MX_HS_1u"
+		(property "Footprint" "PCM_marbastlib-mx:SW_MX_HS_1u"
 			(at 105.41 142.24 0)
 			(effects
 				(font
@@ -5705,7 +5705,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Push button switch, normally open, two pins, 45° tilted"
 			(at 105.41 142.24 0)
 			(effects
 				(font
@@ -5757,7 +5757,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "fatboy:D_SOD-123"
+		(property "Footprint" "Diode_SMD:D_SOD-123"
 			(at 86.995 167.64 0)
 			(effects
 				(font
@@ -5775,7 +5775,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "75V 0.15A Fast Switching Diode, SOD-123"
 			(at 82.55 167.64 0)
 			(effects
 				(font
@@ -5843,7 +5843,7 @@
 				)
 			)
 		)
-		(property "Footprint" "fatboy:SW_MX_HS_1u"
+		(property "Footprint" "PCM_marbastlib-mx:SW_MX_HS_1u"
 			(at 54.61 142.24 0)
 			(effects
 				(font
@@ -5861,7 +5861,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Push button switch, normally open, two pins, 45° tilted"
 			(at 54.61 142.24 0)
 			(effects
 				(font
@@ -5911,7 +5911,7 @@
 				)
 			)
 		)
-		(property "Footprint" "fatboy:SW_MX_HS_1u"
+		(property "Footprint" "PCM_marbastlib-mx:SW_MX_HS_1u"
 			(at 80.01 180.34 0)
 			(effects
 				(font
@@ -5929,7 +5929,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Push button switch, normally open, two pins, 45° tilted"
 			(at 80.01 180.34 0)
 			(effects
 				(font
@@ -5979,7 +5979,7 @@
 				)
 			)
 		)
-		(property "Footprint" "fatboy:SW_MX_HS_1u"
+		(property "Footprint" "PCM_marbastlib-mx:SW_MX_HS_1u"
 			(at 80.01 123.19 0)
 			(effects
 				(font
@@ -5997,7 +5997,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Push button switch, normally open, two pins, 45° tilted"
 			(at 80.01 123.19 0)
 			(effects
 				(font
@@ -6049,7 +6049,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "fatboy:D_SOD-123"
+		(property "Footprint" "Diode_SMD:D_SOD-123"
 			(at 86.995 186.69 0)
 			(effects
 				(font
@@ -6067,7 +6067,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "75V 0.15A Fast Switching Diode, SOD-123"
 			(at 82.55 186.69 0)
 			(effects
 				(font
@@ -6137,7 +6137,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "fatboy:D_SOD-123"
+		(property "Footprint" "Diode_SMD:D_SOD-123"
 			(at 163.195 129.54 0)
 			(effects
 				(font
@@ -6155,7 +6155,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "75V 0.15A Fast Switching Diode, SOD-123"
 			(at 158.75 129.54 0)
 			(effects
 				(font
@@ -6223,7 +6223,7 @@
 				)
 			)
 		)
-		(property "Footprint" "fatboy:SW_MX_HS_1u"
+		(property "Footprint" "PCM_marbastlib-mx:SW_MX_HS_1u"
 			(at 130.81 161.29 0)
 			(effects
 				(font
@@ -6241,7 +6241,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Push button switch, normally open, two pins, 45° tilted"
 			(at 130.81 161.29 0)
 			(effects
 				(font
@@ -6291,7 +6291,7 @@
 				)
 			)
 		)
-		(property "Footprint" "fatboy:SW_MX_HS_1u"
+		(property "Footprint" "PCM_marbastlib-mx:SW_MX_HS_1u"
 			(at 143.51 123.19 0)
 			(effects
 				(font
@@ -6309,7 +6309,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Push button switch, normally open, two pins, 45° tilted"
 			(at 143.51 123.19 0)
 			(effects
 				(font
@@ -6359,7 +6359,7 @@
 				)
 			)
 		)
-		(property "Footprint" "fatboy:SW_MX_HS_1u"
+		(property "Footprint" "PCM_marbastlib-mx:SW_MX_HS_1u"
 			(at 54.61 123.19 0)
 			(effects
 				(font
@@ -6377,7 +6377,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Push button switch, normally open, two pins, 45° tilted"
 			(at 54.61 123.19 0)
 			(effects
 				(font
@@ -6429,7 +6429,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "fatboy:D_SOD-123"
+		(property "Footprint" "Diode_SMD:D_SOD-123"
 			(at 74.295 148.59 0)
 			(effects
 				(font
@@ -6447,7 +6447,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "75V 0.15A Fast Switching Diode, SOD-123"
 			(at 69.85 148.59 0)
 			(effects
 				(font
@@ -6517,7 +6517,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "fatboy:D_SOD-123"
+		(property "Footprint" "Diode_SMD:D_SOD-123"
 			(at 61.595 129.54 0)
 			(effects
 				(font
@@ -6535,7 +6535,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "75V 0.15A Fast Switching Diode, SOD-123"
 			(at 57.15 129.54 0)
 			(effects
 				(font
@@ -6605,7 +6605,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "fatboy:D_SOD-123"
+		(property "Footprint" "Diode_SMD:D_SOD-123"
 			(at 74.295 186.69 0)
 			(effects
 				(font
@@ -6623,7 +6623,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "75V 0.15A Fast Switching Diode, SOD-123"
 			(at 69.85 186.69 0)
 			(effects
 				(font
@@ -6691,7 +6691,7 @@
 				)
 			)
 		)
-		(property "Footprint" "fatboy:LED_6028R"
+		(property "Footprint" "PCM_marbastlib-various:LED_6028R"
 			(at 198.12 27.305 0)
 			(effects
 				(font
@@ -6709,7 +6709,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Reverse mount adressable LED (WS2812 protocol)"
 			(at 198.12 27.305 0)
 			(effects
 				(font
@@ -6765,7 +6765,7 @@
 				)
 			)
 		)
-		(property "Footprint" "fatboy:SW_MX_HS_1u"
+		(property "Footprint" "PCM_marbastlib-mx:SW_MX_HS_1u"
 			(at 41.91 142.24 0)
 			(effects
 				(font
@@ -6783,7 +6783,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Push button switch, normally open, two pins, 45° tilted"
 			(at 41.91 142.24 0)
 			(effects
 				(font
@@ -6835,7 +6835,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "fatboy:D_SOD-123"
+		(property "Footprint" "Diode_SMD:D_SOD-123"
 			(at 112.395 186.69 0)
 			(effects
 				(font
@@ -6853,7 +6853,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "75V 0.15A Fast Switching Diode, SOD-123"
 			(at 107.95 186.69 0)
 			(effects
 				(font
@@ -6923,7 +6923,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "fatboy:D_SOD-123"
+		(property "Footprint" "Diode_SMD:D_SOD-123"
 			(at 61.595 186.69 0)
 			(effects
 				(font
@@ -6941,7 +6941,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "75V 0.15A Fast Switching Diode, SOD-123"
 			(at 57.15 186.69 0)
 			(effects
 				(font
@@ -7009,7 +7009,7 @@
 				)
 			)
 		)
-		(property "Footprint" "fatboy:SW_MX_HS_1u"
+		(property "Footprint" "PCM_marbastlib-mx:SW_MX_HS_1u"
 			(at 41.91 161.29 0)
 			(effects
 				(font
@@ -7027,7 +7027,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Push button switch, normally open, two pins, 45° tilted"
 			(at 41.91 161.29 0)
 			(effects
 				(font
@@ -7077,7 +7077,7 @@
 				)
 			)
 		)
-		(property "Footprint" "fatboy:SW_MX_HS_1u"
+		(property "Footprint" "PCM_marbastlib-mx:SW_MX_HS_1u"
 			(at 143.51 161.29 0)
 			(effects
 				(font
@@ -7095,7 +7095,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Push button switch, normally open, two pins, 45° tilted"
 			(at 143.51 161.29 0)
 			(effects
 				(font
@@ -7147,7 +7147,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "fatboy:D_SOD-123"
+		(property "Footprint" "Diode_SMD:D_SOD-123"
 			(at 163.195 148.59 0)
 			(effects
 				(font
@@ -7165,7 +7165,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "75V 0.15A Fast Switching Diode, SOD-123"
 			(at 158.75 148.59 0)
 			(effects
 				(font
@@ -7235,7 +7235,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "fatboy:D_SOD-123"
+		(property "Footprint" "Diode_SMD:D_SOD-123"
 			(at 74.295 167.64 0)
 			(effects
 				(font
@@ -7253,7 +7253,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "75V 0.15A Fast Switching Diode, SOD-123"
 			(at 69.85 167.64 0)
 			(effects
 				(font
@@ -7323,7 +7323,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "fatboy:D_SOD-123"
+		(property "Footprint" "Diode_SMD:D_SOD-123"
 			(at 137.795 167.64 0)
 			(effects
 				(font
@@ -7341,7 +7341,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "75V 0.15A Fast Switching Diode, SOD-123"
 			(at 133.35 167.64 0)
 			(effects
 				(font
@@ -7429,7 +7429,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 50.8 36.83 0)
 			(effects
 				(font
@@ -7476,7 +7476,7 @@
 				)
 			)
 		)
-		(property "Footprint" "fatboy:SW_MX_HS_1u"
+		(property "Footprint" "PCM_marbastlib-mx:SW_MX_HS_1u"
 			(at 67.31 161.29 0)
 			(effects
 				(font
@@ -7494,7 +7494,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Push button switch, normally open, two pins, 45° tilted"
 			(at 67.31 161.29 0)
 			(effects
 				(font
@@ -7544,7 +7544,7 @@
 				)
 			)
 		)
-		(property "Footprint" "fatboy:SW_MX_HS_1u"
+		(property "Footprint" "PCM_marbastlib-mx:SW_MX_HS_1u"
 			(at 67.31 180.34 0)
 			(effects
 				(font
@@ -7562,7 +7562,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Push button switch, normally open, two pins, 45° tilted"
 			(at 67.31 180.34 0)
 			(effects
 				(font
@@ -7614,7 +7614,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "fatboy:D_SOD-123"
+		(property "Footprint" "Diode_SMD:D_SOD-123"
 			(at 150.495 129.54 0)
 			(effects
 				(font
@@ -7632,7 +7632,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "75V 0.15A Fast Switching Diode, SOD-123"
 			(at 146.05 129.54 0)
 			(effects
 				(font
@@ -7700,7 +7700,7 @@
 				)
 			)
 		)
-		(property "Footprint" "fatboy:SW_MX_HS_1u"
+		(property "Footprint" "PCM_marbastlib-mx:SW_MX_HS_1u"
 			(at 156.21 161.29 0)
 			(effects
 				(font
@@ -7718,7 +7718,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Push button switch, normally open, two pins, 45° tilted"
 			(at 156.21 161.29 0)
 			(effects
 				(font
@@ -7770,7 +7770,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "fatboy:D_SOD-123"
+		(property "Footprint" "Diode_SMD:D_SOD-123"
 			(at 150.495 148.59 0)
 			(effects
 				(font
@@ -7788,7 +7788,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "75V 0.15A Fast Switching Diode, SOD-123"
 			(at 146.05 148.59 0)
 			(effects
 				(font
@@ -7858,7 +7858,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "fatboy:D_SOD-123"
+		(property "Footprint" "Diode_SMD:D_SOD-123"
 			(at 48.895 167.64 0)
 			(effects
 				(font
@@ -7876,7 +7876,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "75V 0.15A Fast Switching Diode, SOD-123"
 			(at 44.45 167.64 0)
 			(effects
 				(font
@@ -7946,7 +7946,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "fatboy:D_SOD-123"
+		(property "Footprint" "Diode_SMD:D_SOD-123"
 			(at 137.795 186.69 0)
 			(effects
 				(font
@@ -7964,7 +7964,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "75V 0.15A Fast Switching Diode, SOD-123"
 			(at 133.35 186.69 0)
 			(effects
 				(font
@@ -8034,7 +8034,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "fatboy:D_SOD-123"
+		(property "Footprint" "Diode_SMD:D_SOD-123"
 			(at 125.095 148.59 0)
 			(effects
 				(font
@@ -8052,7 +8052,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "75V 0.15A Fast Switching Diode, SOD-123"
 			(at 120.65 148.59 0)
 			(effects
 				(font
@@ -8122,7 +8122,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "fatboy:D_SOD-123"
+		(property "Footprint" "Diode_SMD:D_SOD-123"
 			(at 125.095 186.69 0)
 			(effects
 				(font
@@ -8140,7 +8140,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "75V 0.15A Fast Switching Diode, SOD-123"
 			(at 120.65 186.69 0)
 			(effects
 				(font
@@ -8208,7 +8208,7 @@
 				)
 			)
 		)
-		(property "Footprint" "fatboy:SW_MX_HS_1u"
+		(property "Footprint" "PCM_marbastlib-mx:SW_MX_HS_1u"
 			(at 80.01 161.29 0)
 			(effects
 				(font
@@ -8226,7 +8226,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Push button switch, normally open, two pins, 45° tilted"
 			(at 80.01 161.29 0)
 			(effects
 				(font
@@ -8276,7 +8276,7 @@
 				)
 			)
 		)
-		(property "Footprint" "fatboy:LED_6028R"
+		(property "Footprint" "PCM_marbastlib-various:LED_6028R"
 			(at 179.07 27.305 0)
 			(effects
 				(font
@@ -8294,7 +8294,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Reverse mount adressable LED (WS2812 protocol)"
 			(at 179.07 27.305 0)
 			(effects
 				(font
@@ -8350,7 +8350,7 @@
 				)
 			)
 		)
-		(property "Footprint" "fatboy:SW_MX_HS_1u"
+		(property "Footprint" "PCM_marbastlib-mx:SW_MX_HS_1u"
 			(at 29.21 161.29 0)
 			(effects
 				(font
@@ -8368,7 +8368,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Push button switch, normally open, two pins, 45° tilted"
 			(at 29.21 161.29 0)
 			(effects
 				(font
@@ -8418,7 +8418,7 @@
 				)
 			)
 		)
-		(property "Footprint" "fatboy:SW_MX_HS_1u"
+		(property "Footprint" "PCM_marbastlib-mx:SW_MX_HS_1u"
 			(at 80.01 142.24 0)
 			(effects
 				(font
@@ -8436,7 +8436,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Push button switch, normally open, two pins, 45° tilted"
 			(at 80.01 142.24 0)
 			(effects
 				(font
@@ -8488,7 +8488,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "fatboy:D_SOD-123"
+		(property "Footprint" "Diode_SMD:D_SOD-123"
 			(at 86.995 129.54 0)
 			(effects
 				(font
@@ -8506,7 +8506,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "75V 0.15A Fast Switching Diode, SOD-123"
 			(at 82.55 129.54 0)
 			(effects
 				(font
@@ -8574,7 +8574,7 @@
 				)
 			)
 		)
-		(property "Footprint" "fatboy:SW_MX_HS_1u"
+		(property "Footprint" "PCM_marbastlib-mx:SW_MX_HS_1u"
 			(at 29.21 123.19 0)
 			(effects
 				(font
@@ -8592,7 +8592,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Push button switch, normally open, two pins, 45° tilted"
 			(at 29.21 123.19 0)
 			(effects
 				(font
@@ -8661,7 +8661,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 198.12 34.925 0)
 			(effects
 				(font
@@ -8710,7 +8710,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "fatboy:D_SOD-123"
+		(property "Footprint" "Diode_SMD:D_SOD-123"
 			(at 150.495 167.64 0)
 			(effects
 				(font
@@ -8728,7 +8728,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "75V 0.15A Fast Switching Diode, SOD-123"
 			(at 146.05 167.64 0)
 			(effects
 				(font
@@ -8798,7 +8798,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "fatboy:D_SOD-123"
+		(property "Footprint" "Diode_SMD:D_SOD-123"
 			(at 163.195 167.64 0)
 			(effects
 				(font
@@ -8816,7 +8816,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "75V 0.15A Fast Switching Diode, SOD-123"
 			(at 158.75 167.64 0)
 			(effects
 				(font
@@ -8886,7 +8886,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "fatboy:D_SOD-123"
+		(property "Footprint" "Diode_SMD:D_SOD-123"
 			(at 61.595 167.64 0)
 			(effects
 				(font
@@ -8904,7 +8904,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "75V 0.15A Fast Switching Diode, SOD-123"
 			(at 57.15 167.64 0)
 			(effects
 				(font
@@ -8972,7 +8972,7 @@
 				)
 			)
 		)
-		(property "Footprint" "fatboy:SW_MX_HS_1u"
+		(property "Footprint" "PCM_marbastlib-mx:SW_MX_HS_1u"
 			(at 54.61 161.29 0)
 			(effects
 				(font
@@ -8990,7 +8990,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Push button switch, normally open, two pins, 45° tilted"
 			(at 54.61 161.29 0)
 			(effects
 				(font
@@ -9058,7 +9058,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Push button switch, generic, two pins"
 			(at 82.55 26.035 0)
 			(effects
 				(font
@@ -9110,7 +9110,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "fatboy:D_SOD-123"
+		(property "Footprint" "Diode_SMD:D_SOD-123"
 			(at 125.095 129.54 0)
 			(effects
 				(font
@@ -9128,7 +9128,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "75V 0.15A Fast Switching Diode, SOD-123"
 			(at 120.65 129.54 0)
 			(effects
 				(font
@@ -9196,7 +9196,7 @@
 				)
 			)
 		)
-		(property "Footprint" "fatboy:LED_6028R"
+		(property "Footprint" "PCM_marbastlib-various:LED_6028R"
 			(at 160.02 27.305 0)
 			(effects
 				(font
@@ -9214,7 +9214,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Reverse mount adressable LED (WS2812 protocol)"
 			(at 160.02 27.305 0)
 			(effects
 				(font
@@ -9272,7 +9272,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "fatboy:D_SOD-123"
+		(property "Footprint" "Diode_SMD:D_SOD-123"
 			(at 36.195 167.64 0)
 			(effects
 				(font
@@ -9290,7 +9290,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "75V 0.15A Fast Switching Diode, SOD-123"
 			(at 31.75 167.64 0)
 			(effects
 				(font
@@ -9360,7 +9360,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "fatboy:D_SOD-123"
+		(property "Footprint" "Diode_SMD:D_SOD-123"
 			(at 137.795 148.59 0)
 			(effects
 				(font
@@ -9378,7 +9378,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "75V 0.15A Fast Switching Diode, SOD-123"
 			(at 133.35 148.59 0)
 			(effects
 				(font
@@ -9446,7 +9446,7 @@
 				)
 			)
 		)
-		(property "Footprint" "fatboy:SW_MX_HS_1u"
+		(property "Footprint" "PCM_marbastlib-mx:SW_MX_HS_1u"
 			(at 143.51 142.24 0)
 			(effects
 				(font
@@ -9464,7 +9464,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Push button switch, normally open, two pins, 45° tilted"
 			(at 143.51 142.24 0)
 			(effects
 				(font
@@ -9516,7 +9516,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "fatboy:D_SOD-123"
+		(property "Footprint" "Diode_SMD:D_SOD-123"
 			(at 112.395 167.64 0)
 			(effects
 				(font
@@ -9534,7 +9534,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "75V 0.15A Fast Switching Diode, SOD-123"
 			(at 107.95 167.64 0)
 			(effects
 				(font
@@ -9622,7 +9622,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 25.4 39.37 0)
 			(effects
 				(font
@@ -9669,7 +9669,7 @@
 				)
 			)
 		)
-		(property "Footprint" "fatboy:SW_MX_HS_1u"
+		(property "Footprint" "PCM_marbastlib-mx:SW_MX_HS_1u"
 			(at 118.11 180.34 0)
 			(effects
 				(font
@@ -9687,7 +9687,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Push button switch, normally open, two pins, 45° tilted"
 			(at 118.11 180.34 0)
 			(effects
 				(font
@@ -9737,7 +9737,7 @@
 				)
 			)
 		)
-		(property "Footprint" "fatboy:SW_MX_HS_1u"
+		(property "Footprint" "PCM_marbastlib-mx:SW_MX_HS_1u"
 			(at 118.11 123.19 0)
 			(effects
 				(font
@@ -9755,7 +9755,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Push button switch, normally open, two pins, 45° tilted"
 			(at 118.11 123.19 0)
 			(effects
 				(font
@@ -9805,7 +9805,7 @@
 				)
 			)
 		)
-		(property "Footprint" "fatboy:SW_MX_HS_1u"
+		(property "Footprint" "PCM_marbastlib-mx:SW_MX_HS_1u"
 			(at 156.21 123.19 0)
 			(effects
 				(font
@@ -9823,7 +9823,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Push button switch, normally open, two pins, 45° tilted"
 			(at 156.21 123.19 0)
 			(effects
 				(font
@@ -9873,7 +9873,7 @@
 				)
 			)
 		)
-		(property "Footprint" "fatboy:SW_MX_HS_1u"
+		(property "Footprint" "PCM_marbastlib-mx:SW_MX_HS_1u"
 			(at 41.91 123.19 0)
 			(effects
 				(font
@@ -9891,7 +9891,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Push button switch, normally open, two pins, 45° tilted"
 			(at 41.91 123.19 0)
 			(effects
 				(font
@@ -9943,7 +9943,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "fatboy:D_SOD-123"
+		(property "Footprint" "Diode_SMD:D_SOD-123"
 			(at 125.095 167.64 0)
 			(effects
 				(font
@@ -9961,7 +9961,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "75V 0.15A Fast Switching Diode, SOD-123"
 			(at 120.65 167.64 0)
 			(effects
 				(font
