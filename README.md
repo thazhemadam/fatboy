@@ -1,3 +1,3 @@
-# State: Abandoned
+# Fatboy
 
-Will have to rework a lot of things
+![FatBoy Logo](./assets/img/logo.jpeg)
