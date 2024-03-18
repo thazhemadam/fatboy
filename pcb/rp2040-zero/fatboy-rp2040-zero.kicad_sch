@@ -3558,6 +3558,30 @@
 		(uuid 28aea3a9-7876-4cfe-adc5-6417a5adb4b4)
 	)
 	(rectangle
+		(start 12.954 71.374)
+		(end 76.454 124.46)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 2ffd6c79-9445-4908-b71e-dc2bd664c9d3)
+	)
+	(rectangle
+		(start 12.7 22.86)
+		(end 61.468 68.834)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 3b7cdc01-13f4-48d8-80c2-29b9cc9334b1)
+	)
+	(rectangle
 		(start 88.9 69.85)
 		(end 283.21 161.29)
 		(stroke
@@ -3568,6 +3592,28 @@
 			(type none)
 		)
 		(uuid 3b85c74b-8a67-48ad-92ce-2325d88c0b75)
+	)
+	(text "RP2040-Zero"
+		(exclude_from_sim no)
+		(at 47.498 67.31 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "18391745-00f0-460d-8099-d75383f7868e")
+	)
+	(text "74HC595"
+		(exclude_from_sim no)
+		(at 66.548 123.19 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "6c976ab7-a650-4ef6-864e-756a9a92fd5a")
 	)
 	(text "Indicators"
 		(exclude_from_sim no)
